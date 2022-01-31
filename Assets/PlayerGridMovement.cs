@@ -39,6 +39,5 @@ public class PlayerGridMovement : MonoBehaviour
                 }
             }
         }
-        Debug.Log("movement position " + movePoint.position);
     }
 }
