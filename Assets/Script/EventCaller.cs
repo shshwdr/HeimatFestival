@@ -14,6 +14,7 @@ namespace RhythmHeavenMania
         public float currentValA;
         public string currentSwitchGame;
         public int currentType;
+        public int currentIndex;
 
         public delegate void EventCallback();
 
@@ -69,6 +70,7 @@ namespace RhythmHeavenMania
             {
                 currentLength = GameManager.instance.Beatmap.entities[GameManager.instance.currentEvent].length;
                 currentType = GameManager.instance.Beatmap.entities[GameManager.instance.currentEvent].type;
+                currentIndex = GameManager.instance.Beatmap.entities[GameManager.instance.currentEvent].index;
                 currentValA = GameManager.instance.Beatmap.entities[GameManager.instance.currentEvent].valA;
 
                 if (details.Length > 2) currentSwitchGame = details[2];

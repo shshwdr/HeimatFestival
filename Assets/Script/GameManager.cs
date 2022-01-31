@@ -106,7 +106,8 @@ namespace RhythmHeavenMania
                     // GameManager entities should ALWAYS execute before gameplay entities
                     for (int i = 0; i < gameManagerEntities.Count; i++)
                     {
-                        eventCaller.CallEvent(gameManagerEntities[i].datamodel);
+                        eventCaller.CallEvent(gameManagerEntities[i].datamodel); 
+                        currentEvent++;
                     }
 
                     for (int i = 0; i < entitesAtSameBeat.Count; i++)
@@ -118,9 +119,8 @@ namespace RhythmHeavenMania
                             PreloadGame(entitesAtSameBeat[i].datamodel.Split('/')[0]);
                         }
                         eventCaller.CallEvent(entitesAtSameBeat[i].datamodel);
+                        currentEvent++;
                     }
-
-                    currentEvent += entitesAtSameBeat.Count + gameManagerEntities.Count;
                 }
             }
 

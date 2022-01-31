@@ -43,7 +43,14 @@ namespace RhythmHeavenMania.Games.Bar
 
             if (PlayerInput.Pressed())
             {
-                Swing(null);
+                Swing(null,true);
+                Jukebox.PlayOneShotGame("spaceball/swing");
+            }
+            else if (PlayerInput.AltPressed())
+            {
+                Swing(null,false); 
+                Jukebox.PlayOneShotGame("spaceSoccer/highkicktoe1");
+                
             }
         }
 
@@ -53,17 +60,34 @@ namespace RhythmHeavenMania.Games.Bar
             anim.Play("Idle", 0, 0);
         }
 
-        public void Swing(BarDrink b)
+        public void Swing(BarDrink b, bool isOrigin = true)
         {
             if (b == null)
             {
-                Jukebox.PlayOneShotGame("spaceball/swing");
+               // Jukebox.PlayOneShotGame("spaceball/swing");
             }
             else
             {
 
+                //if (b.type)
+                //{
+                //    Jukebox.PlayOneShotGame("spaceball/swing");
+                //}
+                //else
+                //{
+                //    Jukebox.PlayOneShotGame("spaceSoccer/highkicktoe1_hit");
+                //}
             }
-            anim.Play("Swing", 0, 0);
+            if (isOrigin)
+            {
+
+                anim.Play("Swing", 0, 0);
+            }
+            else
+            {
+
+                anim.Play("SwingReverse", 0, 0);
+            }
         }
 
         public void SetSprite(int id)

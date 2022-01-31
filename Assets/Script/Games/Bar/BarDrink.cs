@@ -14,6 +14,7 @@ namespace RhythmHeavenMania.Games.Bar
         public Animator anim;
 
         public bool high;
+        public bool far;
 
         private Minigame.Eligible e = new Minigame.Eligible();
 
@@ -25,6 +26,7 @@ namespace RhythmHeavenMania.Games.Bar
         public Vector3 hitPos;
         public float hitRot;
         public float randomEndPosX;
+        public bool type;
 
         private void Start()
         {
@@ -56,9 +58,13 @@ namespace RhythmHeavenMania.Games.Bar
             Jukebox.PlayOneShotGame("spaceball/hit");
 
             randomEndPosX = Random.Range(40f, 55f);
+            if (far)
+            {
+                randomEndPosX  = Random.Range(-400f, -445f);
+            }
 
             anim.enabled = false;
-            BarMan.instance.Swing(this);
+            BarMan.instance.Swing(this,!far);
         }
 
         private void Miss()
@@ -82,6 +88,7 @@ namespace RhythmHeavenMania.Games.Bar
             if (hit)
             {
                 float nba = Conductor.instance.GetLoopPositionFromBeat(hitBeat, 14);
+                //float nba = 10;
                 Holder.transform.localPosition = Vector3.Lerp(hitPos, new Vector3(randomEndPosX, 0f, -600f), nba);
                 Holder.transform.eulerAngles = Vector3.Lerp(new Vector3(0, 0, hitRot), new Vector3(0, 0, -2260), nba);
             }
@@ -96,6 +103,9 @@ namespace RhythmHeavenMania.Games.Bar
                 if (high)
                 {
                     anim.Play("BallHigh", 0, normalizedBeatAnim);
+                }else if (far)
+                {
+                    anim.Play("BallLowFar", 0, normalizedBeatAnim);
                 }
                 else
                 {
@@ -108,7 +118,7 @@ namespace RhythmHeavenMania.Games.Bar
 
                 StateCheck(normalizedBeat);
 
-                if (PlayerInput.Pressed())
+                if ((PlayerInput.Pressed() && !far) || (PlayerInput.AltPressed() && far))
                 {
                     if (state.perfect)
                     {

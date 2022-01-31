@@ -86,9 +86,13 @@ namespace RhythmHeavenMania
                 }),
                 new Minigame("bar", "Bar", "00A518", new List<GameAction>()
                 {
-                    new GameAction("shoot",         delegate { Bar.instance.Shoot(eventCaller.currentBeat, false, eventCaller.currentType); }, 2),
-                    new GameAction("shootHigh",     delegate { Bar.instance.Shoot(eventCaller.currentBeat, true, eventCaller.currentType); }, 3),
+                    new GameAction("shoot",         delegate { Bar.instance.Shoot(eventCaller.currentBeat, false, false,eventCaller.currentType); }, 2),
+                    new GameAction("shootFar",         delegate { Bar.instance.Shoot(eventCaller.currentBeat, false, true, eventCaller.currentType); }, 2),
+                    new GameAction("shootHigh",     delegate { Bar.instance.Shoot(eventCaller.currentBeat, true,false, eventCaller.currentType); }, 3),
                     new GameAction("costume",       delegate { Bar.instance.Costume(eventCaller.currentType); } ),
+                    new GameAction("light",         delegate { 
+                        Bar.instance.barLight.Show(eventCaller.currentBeat,eventCaller.currentType, eventCaller.currentIndex);
+                    } ),
                    // new GameAction("alien",         delegate { Bar.instance.alien.Show(eventCaller.currentBeat); } ),
                     new GameAction("cameraZoom",    delegate { }, 4, true ),
                 }),

@@ -8,6 +8,20 @@
             "datamodel": "bar/shoot"
         },
         {
+            "beat": 4.0,
+            "track": 1,
+            "type": 0,
+            "index":0,
+            "datamodel": "bar/light"
+        },
+        {
+            "beat": 6.0,
+            "track": 2,
+            "type": 0,
+            "index":1,
+            "datamodel": "bar/light"
+        },
+        {
             "beat": 6.0,
             "track": 0,
             "datamodel": "bar/shoot"
@@ -18,6 +32,13 @@
             "length": 4.0,
             "valA": 20.0,
             "datamodel": "bar/cameraZoom"
+        },
+        {
+            "beat": 8.0,
+            "track": 2,
+            "type": 0,
+            "index":2,
+            "datamodel": "bar/light"
         },
         {
             "beat": 8.0,
@@ -39,26 +60,40 @@
         },
         {
             "beat": 14.0,
+            "track": 2,
+            "type": 1,
+            "index":-1,
+            "datamodel": "bar/light"
+        },
+        {
+            "beat": 14.0,
             "track": 0,
             "type": 2,
-            "datamodel": "bar/shoot"
+            "datamodel": "bar/shootFar"
         },
         {
             "beat": 16.0,
             "track": 0,
-            "datamodel": "bar/shoot"
+            "datamodel": "bar/shootFar"
         },
         {
             "beat": 18.0,
             "track": 0,
             "type": 2,
-            "datamodel": "bar/shoot"
+            "datamodel": "bar/shootFar"
         },
         {
             "beat": 20.0,
             "track": 0,
             "type": 1,
-            "datamodel": "bar/shoot"
+            "datamodel": "bar/shootFar"
+        },
+        {
+            "beat":22.0,
+            "track": 2,
+            "type": 2,
+            "index":-1,
+            "datamodel": "bar/light"
         },
         {
             "beat": 22.0,
@@ -122,12 +157,12 @@
             "beat": 40.0,
             "track": 0,
             "type": 2,
-            "datamodel": "bar/shoot"
+            "datamodel": "bar/shootFar"
         },
         {
             "beat": 42.0,
             "track": 0,
-            "datamodel": "bar/shoot"
+            "datamodel": "bar/shootFar"
         },
         {
             "beat": 44.0,
@@ -190,7 +225,7 @@
         {
             "beat": 68.0,
             "track": 0,
-            "datamodel": "bar/shoot"
+            "datamodel": "bar/shootFar"
         },
         {
             "beat": 70.0,

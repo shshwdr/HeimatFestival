@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using RhythmHeavenMania.Util;
+using UnityEngine.SceneManagement;
 
 namespace RhythmHeavenMania.Games.Bar
 {
@@ -26,6 +27,7 @@ namespace RhythmHeavenMania.Games.Bar
         private List<Beatmap.Entity> allCameraEvents = new List<Beatmap.Entity>();
 
 
+        public BarLight barLight;
         public static Bar instance { get; set; }
 
         public override void OnGameSwitch()
@@ -56,6 +58,10 @@ namespace RhythmHeavenMania.Games.Bar
 
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
             /*try
             {
                 var allPlayerActions = EventCaller.GetAllPlayerEntities("spaceball");
@@ -132,7 +138,7 @@ namespace RhythmHeavenMania.Games.Bar
             }
         }
 
-        public void Shoot(float beat, bool high, int type)
+        public void Shoot(float beat, bool high, bool far,int type)
         {
             GameObject ball = Instantiate(Ball);
             ball.transform.parent = Ball.transform.parent;
@@ -142,11 +148,17 @@ namespace RhythmHeavenMania.Games.Bar
             if (high)
             {
                 ball.GetComponent<BarDrink>().high = true;
-                Jukebox.PlayOneShotGame("spaceball/longShoot");
+                Jukebox.PlayOneShotGame("bar/longShoot");
+            }
+            else if (far)
+            {
+                ball.GetComponent<BarDrink>().far = true;
+
+                Jukebox.PlayOneShotGame("bar/farShoot");
             }
             else
             {
-                Jukebox.PlayOneShotGame("spaceball/shoot");
+                Jukebox.PlayOneShotGame("bar/shoot");
             }
 
             //if (type == 1)
