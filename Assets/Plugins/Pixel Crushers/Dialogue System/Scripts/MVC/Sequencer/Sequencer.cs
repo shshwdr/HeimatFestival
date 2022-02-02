@@ -1191,6 +1191,14 @@ namespace PixelCrushers.DialogueSystem
             {
                 return HandleRandomizeNextEntryInternally();
             }
+            else if (string.Equals(commandName, "LoopNextEntry"))
+            {
+                return HandleLoopNextEntryInternally();
+            }
+            else if (string.Equals(commandName, "TriggerInOrderNextEntry"))
+            {
+                return HandleTriggerInOrderNextEntryInternally();
+            }
             return false;
         }
 
@@ -2685,6 +2693,18 @@ namespace PixelCrushers.DialogueSystem
         {
             if (DialogueDebug.logInfo) Debug.Log(string.Format("{0}: Sequencer: RandomizeNextEntry()", new System.Object[] { DialogueDebug.Prefix }));
             if (DialogueManager.conversationController != null) DialogueManager.conversationController.randomizeNextEntry = true;
+            return true;
+        }
+        private bool HandleLoopNextEntryInternally()
+        {
+            if (DialogueDebug.logInfo) Debug.Log(string.Format("{0}: Sequencer: LoopNextEntry()", new System.Object[] { DialogueDebug.Prefix }));
+            if (DialogueManager.conversationController != null) DialogueManager.conversationController.loopNextEntry = true;
+            return true;
+        }
+        private bool HandleTriggerInOrderNextEntryInternally()
+        {
+            if (DialogueDebug.logInfo) Debug.Log(string.Format("{0}: Sequencer: TriggerInOrderNextEntry()", new System.Object[] { DialogueDebug.Prefix }));
+            if (DialogueManager.conversationController != null) DialogueManager.conversationController.triggerInOrderNextEntry = true;
             return true;
         }
     }

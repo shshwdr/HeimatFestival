@@ -173,6 +173,23 @@ namespace PixelCrushers.DialogueSystem
             return hasNPCResponse ? npcResponses[UnityEngine.Random.Range((int)0, (int)npcResponses.Length)].destinationEntry : null;
 
         }
+        public DialogueEntry GetLoopNPCEntry()
+        {
+            //if(DialogueLua.DoesVariableExist(subtitle.listenerInfo.Name, subtitle.entrytag))
+            //{
+
+            //}
+            var value = DialogueLua.GetActorField(subtitle.listenerInfo.Name, subtitle.entrytag).AsInt;
+            //DialogueLua.SetActorField("Player", "Display Name", "Anna");
+            var nextValue = value + 1;
+            if(nextValue>= npcResponses.Length)
+            {
+                nextValue = 0;
+            }
+            DialogueLua.SetActorField(subtitle.listenerInfo.Name, subtitle.entrytag, nextValue);
+            return hasNPCResponse ? npcResponses[value].destinationEntry : null;
+
+        }
 
     }
 

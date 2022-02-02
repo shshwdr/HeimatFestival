@@ -1930,11 +1930,15 @@ namespace PixelCrushers.DialogueSystem
 
             // Unregister previous instance's versions first:
             Lua.UnregisterFunction("RandomizeNextEntry");
+            Lua.UnregisterFunction("LoopNextEntry");
+            Lua.UnregisterFunction("TriggerInOrderNextEntry");
             Lua.UnregisterFunction("UpdateTracker");
             // Then register functions:
             Lua.RegisterFunction("ShowAlert", null, SymbolExtensions.GetMethodInfo(() => LuaShowAlert(string.Empty)));
             Lua.RegisterFunction("HideAlert", null, SymbolExtensions.GetMethodInfo(() => LuaHideAlert()));
             Lua.RegisterFunction("RandomizeNextEntry", this, SymbolExtensions.GetMethodInfo(() => RandomizeNextEntry()));
+            Lua.RegisterFunction("LoopNextEntry", this, SymbolExtensions.GetMethodInfo(() => LoopNextEntry()));
+            Lua.RegisterFunction("TriggerInOrderNextEntry", this, SymbolExtensions.GetMethodInfo(() => TriggerInOrderNextEntry()));
             Lua.RegisterFunction("UpdateTracker", this, SymbolExtensions.GetMethodInfo(() => SendUpdateTracker()));
             Lua.RegisterFunction("GetEntryText", null, SymbolExtensions.GetMethodInfo(() => GetEntryText((double)0, string.Empty)));
             Lua.RegisterFunction("GetEntryBool", null, SymbolExtensions.GetMethodInfo(() => GetEntryBool((double)0, string.Empty)));
@@ -1995,6 +1999,17 @@ namespace PixelCrushers.DialogueSystem
         {
             m_calledRandomizeNextEntry = true;
             if (conversationController != null) conversationController.randomizeNextEntry = true;
+        }
+
+        public void LoopNextEntry()
+        {
+
+            if (conversationController != null) conversationController.loopNextEntry = true;
+        }
+        public void TriggerInOrderNextEntry()
+        {
+
+            if (conversationController != null) conversationController.triggerInOrderNextEntry = true;
         }
 
         /// <summary>

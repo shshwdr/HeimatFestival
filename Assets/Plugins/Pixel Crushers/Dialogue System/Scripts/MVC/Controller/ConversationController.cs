@@ -66,6 +66,8 @@ namespace PixelCrushers.DialogueSystem
         /// using the first one in the list.
         /// </summary>
         public bool randomizeNextEntry { get; set; }
+        public bool loopNextEntry { get; set; }
+        public bool triggerInOrderNextEntry { get; set; }
 
         /// <summary>
         /// Gets the conversant info for this conversation.
@@ -265,9 +267,21 @@ namespace PixelCrushers.DialogueSystem
             DialogueManager.instance.activeConversation = activeConversationRecord;
             var randomize = randomizeNextEntry;
             randomizeNextEntry = false;
+            var loopNext = loopNextEntry;
+            loopNextEntry = false;
+            var triggerInOrder = triggerInOrderNextEntry;
+            triggerInOrderNextEntry = false;
             if (m_state.hasNPCResponse)
             {
-                GotoState(m_model.GetState(randomize ? m_state.GetRandomNPCEntry() : m_state.firstNPCResponse.destinationEntry));
+                DialogueEntry entry = m_state.firstNPCResponse.destinationEntry;
+                if (randomize)
+                {
+                    entry =  m_state.GetRandomNPCEntry();
+                }else if (loopNext)
+                {
+                    entry = m_state.GetLoopNPCEntry();
+                }
+                GotoState(m_model.GetState(entry));
             }
             else if (m_state.hasPCResponses)
             {
