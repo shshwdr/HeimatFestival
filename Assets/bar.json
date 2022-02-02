@@ -238,16 +238,6 @@
             "datamodel": "bar/shoot"
         },
         {
-            "beat": 72.0,
-            "track": 0,
-            "datamodel": "bar/alien"
-        },
-        {
-            "beat": 74.0,
-            "track": 0,
-            "datamodel": "bar/alien"
-        },
-        {
             "beat": 74.0,
             "track": 0,
             "datamodel": "bar/shoot"
@@ -273,11 +263,6 @@
             "datamodel": "bar/shoot"
         },
         {
-            "beat": 85.0,
-            "track": 0,
-            "datamodel": "bar/alien"
-        },
-        {
             "beat": 86.0,
             "track": 0,
             "datamodel": "bar/shoot"
@@ -289,19 +274,9 @@
             "datamodel": "bar/costume"
         },
         {
-            "beat": 87.0,
-            "track": 0,
-            "datamodel": "bar/alien"
-        },
-        {
             "beat": 88.0,
             "track": 0,
             "datamodel": "bar/shoot"
-        },
-        {
-            "beat": 89.0,
-            "track": 0,
-            "datamodel": "bar/alien"
         },
         {
             "beat": 90.0,

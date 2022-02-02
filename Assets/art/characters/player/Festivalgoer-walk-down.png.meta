@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: 93313fcefac4d114a83bf610c817f738
+guid: cb7a200653ab3ee4ab8b6e903cd14e84
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8930741104822344741
+    second: Festivalgoer-walk-down_0
+  - first:
+      213: 726824153282118688
+    second: Festivalgoer-walk-down_1
+  - first:
+      213: -6443930325854740340
+    second: Festivalgoer-walk-down_2
+  - first:
+      213: 5083809795244032345
+    second: Festivalgoer-walk-down_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,11 +113,95 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Festivalgoer-walk-down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3a5124842af0480800000000000000
+      internalID: -8930741104822344741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-walk-down_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0240e8e67b2361a00800000000000000
+      internalID: 726824153282118688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-walk-down_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80af02928f8296a0800000000000000
+      internalID: -6443930325854740340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-walk-down_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9510c27d2125d8640800000000000000
+      internalID: 5083809795244032345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 096d342631a96a449b9d21459700696b
     internalID: 0
     vertices: []
     indices: 

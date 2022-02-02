@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class PlayerTalk : MonoBehaviour
 {
     public LayerMask talkMask;
+    PlayerGridMovement movement;
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-
+        animator = GetComponentInChildren<Animator>();
+        movement = GetComponent<PlayerGridMovement>();
     }
 
     // Update is called once per frame
@@ -17,12 +20,22 @@ public class PlayerTalk : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            //bad idea, use look at the trigger
-            Collider2D result = Physics2D.OverlapCircle(transform.position, .2f, talkMask);
+            Collider2D result = Physics2D.OverlapCircle(transform.position + new Vector3(Utils.gridSize / 2f, Utils.gridSize / 2f, 0) + (Vector3)movement.faceDir * Utils.gridSize, 0.07f, talkMask);
             if (result)
             {
                 PixelCrushers.DialogueSystem.DialogueManager.StartConversation(result.name,result.transform, result.transform);
+
             }
         }
+    }
+
+    public void startTalk()
+    {
+        animator.SetBool("isTalking", true);
+    }
+
+    public void stopTalk()
+    {
+        animator.SetBool("isTalking", false);
     }
 }

@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 418fb784bc3e8574680e18dc11e56eff
+guid: cd7a992502f2d7f49ab345ffb14ca237
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 271835262620219845
-    second: Amelia_idle_16x16_0
+      213: -4185939028853742587
+    second: Festivalgoer-idle-down_0
   - first:
-      213: 378471108023897391
-    second: Amelia_idle_16x16_1
+      213: 3456743889374980679
+    second: Festivalgoer-idle-down_1
   - first:
-      213: 7334375288499993169
-    second: Amelia_idle_16x16_2
+      213: -5566075309676698979
+    second: Festivalgoer-idle-down_2
   - first:
-      213: 4758776143359820123
-    second: Amelia_idle_16x16_3
+      213: 7951768895541331184
+    second: Festivalgoer-idle-down_3
+  - first:
+      213: 4491539663249044025
+    second: Festivalgoer-idle-down_4
+  - first:
+      213: 45651725081043892
+    second: Festivalgoer-idle-down_5
+  - first:
+      213: 8509558047415565461
+    second: Festivalgoer-idle-down_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Amelia_idle_16x16_0
+      name: Festivalgoer-idle-down_0
       rect:
         serializedVersion: 2
         x: 0
@@ -129,14 +138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c937e92bb0c5c300800000000000000
-      internalID: 271835262620219845
+      spriteID: 504aabd91ae88e5c0800000000000000
+      internalID: -4185939028853742587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Amelia_idle_16x16_1
+      name: Festivalgoer-idle-down_1
       rect:
         serializedVersion: 2
         x: 16
@@ -150,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d438fa779904500800000000000000
-      internalID: 378471108023897391
+      spriteID: 74aa2b5b042d8ff20800000000000000
+      internalID: 3456743889374980679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Amelia_idle_16x16_2
+      name: Festivalgoer-idle-down_2
       rect:
         serializedVersion: 2
         x: 32
@@ -171,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15af178377fe8c560800000000000000
-      internalID: 7334375288499993169
+      spriteID: d92e5a50ff351c2b0800000000000000
+      internalID: -5566075309676698979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Amelia_idle_16x16_3
+      name: Festivalgoer-idle-down_3
       rect:
         serializedVersion: 2
         x: 48
@@ -192,8 +201,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b51c09670b19a0240800000000000000
-      internalID: 4758776143359820123
+      spriteID: 0f4cdb22eab5a5e60800000000000000
+      internalID: 7951768895541331184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-idle-down_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932798ac687255e30800000000000000
+      internalID: 4491539663249044025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-idle-down_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3e6d8800032a000800000000000000
+      internalID: 45651725081043892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-idle-down_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c75c365f5081670800000000000000
+      internalID: 8509558047415565461
       vertices: []
       indices: 
       edges: []
@@ -201,7 +273,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4fad19cae9ded5944a60f852e3eff41c
+    spriteID: 180fd9b469c4d4649bb1aabf9ab9fe31
     internalID: 0
     vertices: []
     indices: 
