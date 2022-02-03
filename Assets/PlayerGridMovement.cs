@@ -1,8 +1,10 @@
+using PixelCrushers;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerGridMovement : MonoBehaviour
+public class PlayerGridMovement : Saver
 {
     public float moveSpeed = 5f;
     public float runSpeed = 10f;
@@ -13,11 +15,11 @@ public class PlayerGridMovement : MonoBehaviour
     public Vector2 faceDir;
     Animator animator;
     bool canRun = false;
+    bool startMove = false;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
-        movePoint.parent = null;
     }
 
     public void enableRun()
@@ -28,13 +30,19 @@ public class PlayerGridMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!SaveLoadManager.Instance.dataApplied)
+        {
+            //print("still loading!");
+            return;
+        }
+        var speed = (canRun && Input.GetKey(KeyCode.X)) ? runSpeed : moveSpeed;
+        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
+
 
         if (DialogueUtils.Instance.isInDialogue)
         {
             return;
         }
-        var speed = (canRun && Input.GetKey(KeyCode.X)) ? runSpeed : moveSpeed;
-        transform.position = Vector3.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
         if (Vector3.Distance(transform.position, movePoint.position) < moveAllowDistance)
         {
 
@@ -48,6 +56,12 @@ public class PlayerGridMovement : MonoBehaviour
                 }
                 faceDir = new Vector2(horizonMovement, verticalMovement);
                 animator.SetBool("isWalking", true);
+                if (!startMove)
+                {
+                    startMove = true;
+
+                    movePoint.parent = null;
+                }
             }
             else if (Mathf.Abs(verticalMovement) == 1)
             {
@@ -58,11 +72,36 @@ public class PlayerGridMovement : MonoBehaviour
                 faceDir = new Vector2(horizonMovement, verticalMovement);
 
                 animator.SetBool("isWalking", true);
+                if (!startMove)
+                {
+                    startMove = true;
+
+                    movePoint.parent = null;
+                }
             }
             else
             {
                 animator.SetBool("isWalking", false);
             }
         }
+    }
+    [Serializable]
+    public class Data
+    {
+        public bool canRun;
+    }
+    private Data m_data = new Data();
+    public override string RecordData()
+    {
+        m_data.canRun = canRun;
+        return SaveSystem.Serialize(m_data);
+    }
+
+    public override void ApplyData(string s)
+    {
+        var data = SaveSystem.Deserialize<Data>(s, m_data);
+        if (data == null) return;
+        m_data = data;
+        canRun = m_data.canRun;
     }
 }

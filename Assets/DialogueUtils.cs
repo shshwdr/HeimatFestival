@@ -1,3 +1,5 @@
+using PixelCrushers;
+using Pool;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +8,7 @@ public class DialogueUtils : Singleton<DialogueUtils>
 {
     public bool isInDialogue;
     public List<GameObject> hideItems;
+    public int saveSlotNumber = 1;
     private void Awake()
     {
     }
@@ -28,6 +31,8 @@ public class DialogueUtils : Singleton<DialogueUtils>
             item.SetActive(false);
         }
         GameObject.FindObjectOfType<PlayerTalk>().startTalk();
+
+        SaveSystem.SaveToSlotImmediate(saveSlotNumber);
     }
     public void started()
     {
@@ -41,5 +46,6 @@ public class DialogueUtils : Singleton<DialogueUtils>
             item.SetActive(true);
         }
         GameObject.FindObjectOfType<PlayerTalk>().stopTalk();
+        EventPool.Trigger("dialogEnd");
     }
 }

@@ -150,6 +150,8 @@ namespace PixelCrushers
                 transform.position = position;
             }
             transform.rotation = rotation;
+            var gridSize = 0.16f;
+            transform.position = new Vector3(Mathf.Round(transform.position.x / gridSize) * gridSize, (transform.position.y / gridSize) * gridSize,( transform.position.z / gridSize) *gridSize);
         }
 
     }

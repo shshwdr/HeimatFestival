@@ -236,7 +236,7 @@ namespace PixelCrushers
                 return m_currentSceneIndex;
             }
         }
-
+        public bool hasLoaded = false;
         public delegate void SceneLoadedDelegate(string sceneName, int sceneIndex);
 
         /// <summary>
@@ -269,7 +269,11 @@ namespace PixelCrushers
         /// <summary>
         /// Invoked after ApplyData() has been called on all savers.
         /// </summary>
-        public static event System.Action saveDataApplied = delegate { };
+        public static event System.Action saveDataApplied = delegate {
+            GameObject.Find("inventoryContent").SendMessage("updateInventory");
+            GameObject.Find("SaveLoadManager").SendMessage("savedDataApplied");
+
+        };
 
         private void Awake()
         {
@@ -546,6 +550,8 @@ namespace PixelCrushers
                 if (Debug.isDebugBuild) Debug.LogWarning("Save System: LoadFromSlot(" + slotNumber + ") but there is no saved game in this slot.");
                 return;
             }
+
+            GameObject.Find("SaveLoadManager").SendMessage("startDataApplied");
             if (loadStarted.GetInvocationList().Length > 1)
             {
                 instance.StartCoroutine(LoadFromSlotCoroutine(slotNumber));

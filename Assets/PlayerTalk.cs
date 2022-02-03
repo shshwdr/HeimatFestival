@@ -24,7 +24,7 @@ public class PlayerTalk : MonoBehaviour
             if (result)
             {
                 PixelCrushers.DialogueSystem.DialogueManager.StartConversation(result.name,result.transform, result.transform);
-
+                
             }
         }
     }

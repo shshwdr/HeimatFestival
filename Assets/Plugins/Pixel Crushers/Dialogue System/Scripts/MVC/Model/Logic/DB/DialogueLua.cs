@@ -1031,6 +1031,12 @@ namespace PixelCrushers.DialogueSystem
             return GetTableField("Item", item, field);
         }
 
+        public static Dictionary<LuaValue, LuaValue> GetAllItems()
+        {
+            LuaTable luaTable = Lua.Environment.GetValue("Item") as LuaTable;
+            return luaTable.Dict;
+        }
+
         /// <summary>
         /// Sets the value of a field in the Lua Item table.
         /// </summary>

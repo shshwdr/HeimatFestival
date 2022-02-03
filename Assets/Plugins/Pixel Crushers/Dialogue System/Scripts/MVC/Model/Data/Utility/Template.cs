@@ -52,6 +52,7 @@ namespace PixelCrushers.DialogueSystem
             template.itemFields.Add(new Field("Pictures", "[]", FieldType.Files));
             template.itemFields.Add(new Field("Description", string.Empty, FieldType.Text));
             template.itemFields.Add(new Field("Is Item", "True", FieldType.Boolean));
+            template.itemFields.Add(new Field("Amount", "0", FieldType.Number));
 
             template.questFields.Clear();
             template.questFields.Add(new Field("Name", string.Empty, FieldType.Text));
