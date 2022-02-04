@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 5994161032fd7d84db32f70ef053420b
+guid: 3a570decaab540d408608bc5cd3f5039
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5566957715642824423
-    second: Festivalgoer-talk-down_0
-  - first:
-      213: -5753899033645174465
-    second: Festivalgoer-talk-down_1
+      213: -4914379559460090347
+    second: Festivalgoer-up-idle-talk_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,43 +106,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Festivalgoer-talk-down_0
+      name: Festivalgoer-up-idle-talk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
         height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9194d7fd3713eb2b0800000000000000
-      internalID: -5566957715642824423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Festivalgoer-talk-down_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f31bd1a705b0620b0800000000000000
-      internalID: -5753899033645174465
+      spriteID: 51ec0f204dd9ccbb0800000000000000
+      internalID: -4914379559460090347
       vertices: []
       indices: 
       edges: []
@@ -153,7 +129,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6f054d9bac376cd44becc8c9733010c6
+    spriteID: 9395371460ba2d846ba05ff67a973e98
     internalID: 0
     vertices: []
     indices: 

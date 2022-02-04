@@ -13,13 +13,41 @@ public class PlayerGridMovement : Saver
     public float moveAllowDistance = 0.05f;
     public float moveStepDistance = 0.16f;
     public Vector2 faceDir;
+    public GameObject spriteObject;
+    public bool facingRight = true;
     Animator animator;
     bool canRun = false;
     bool startMove = false;
     // Start is called before the first frame update
-    void Start()
+    public override void Start()
     {
+        base.Start();
         animator = GetComponentInChildren<Animator>();
+    }
+
+    void flip()
+    {
+        facingRight = !facingRight;
+        if (spriteObject)
+        {
+
+            Vector3 scaler = spriteObject.transform.localScale;
+            scaler.x = -scaler.x;
+            // spriteObject.transform.position = new Vector3(spriteObject.transform.position.x + 1, spriteObject.transform.position.y, -1);
+            spriteObject.transform.localScale = scaler;
+            //spriteObject.GetComponent<SpriteRenderer>().flipX = !facingRight;
+        }
+    }
+    public void testFlip(float movement)
+    {
+        if (facingRight == false && movement > 0.1f)
+        {
+            flip();
+        }
+        if (facingRight == true && movement < -0.1f)
+        {
+            flip();
+        }
     }
 
     public void enableRun()
@@ -35,7 +63,9 @@ public class PlayerGridMovement : Saver
             //print("still loading!");
             return;
         }
-        var speed = (canRun && Input.GetKey(KeyCode.X)) ? runSpeed : moveSpeed;
+        var isRunning = (canRun && Input.GetKey(KeyCode.X));
+        var speed = isRunning ? runSpeed : moveSpeed;
+        animator.SetBool("isRunning", isRunning);
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
 
 
@@ -56,12 +86,16 @@ public class PlayerGridMovement : Saver
                 }
                 faceDir = new Vector2(horizonMovement, verticalMovement);
                 animator.SetBool("isWalking", true);
+                animator.SetFloat("horizontalSpeed", horizonMovement);
+                animator.SetFloat("verticalSpeed", 0);
                 if (!startMove)
                 {
                     startMove = true;
 
                     movePoint.parent = null;
                 }
+
+                testFlip(horizonMovement);
             }
             else if (Mathf.Abs(verticalMovement) == 1)
             {
@@ -72,12 +106,15 @@ public class PlayerGridMovement : Saver
                 faceDir = new Vector2(horizonMovement, verticalMovement);
 
                 animator.SetBool("isWalking", true);
+                animator.SetFloat("verticalSpeed", verticalMovement);
+                animator.SetFloat("horizontalSpeed", 0);
                 if (!startMove)
                 {
                     startMove = true;
 
                     movePoint.parent = null;
                 }
+
             }
             else
             {

@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: b2f98bb619924d940b27122139ac37ad
+guid: 7209891776ed4cc4e9e947eb8a3e1b4a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5625196850881428988
-    second: Festivalgoer-walk-side_0
+      213: 2822723243780517243
+    second: Festivalgoer-side-idle_0
   - first:
-      213: -4921484875303473684
-    second: Festivalgoer-walk-side_1
+      213: 1230280335357940916
+    second: Festivalgoer-side-idle_1
   - first:
-      213: -479848968635119611
-    second: Festivalgoer-walk-side_2
+      213: -4114132931120971371
+    second: Festivalgoer-side-idle_2
   - first:
-      213: 7256604596879895952
-    second: Festivalgoer-walk-side_3
+      213: -4897071915936239726
+    second: Festivalgoer-side-idle_3
+  - first:
+      213: 8841933132568656152
+    second: Festivalgoer-side-idle_4
+  - first:
+      213: -5580456757996258462
+    second: Festivalgoer-side-idle_5
+  - first:
+      213: 7554794129663250382
+    second: Festivalgoer-side-idle_6
+  - first:
+      213: 7817707515097575807
+    second: Festivalgoer-side-idle_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,85 +127,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Festivalgoer-walk-side_0
+      name: Festivalgoer-side-idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
         height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfdfe687bb6b01e40800000000000000
-      internalID: 5625196850881428988
+      spriteID: b7da6c4b5d35c2720800000000000000
+      internalID: 2822723243780517243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Festivalgoer-walk-side_1
+      name: Festivalgoer-side-idle_1
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
         height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ced2410c49f53bbb0800000000000000
-      internalID: -4921484875303473684
+      spriteID: 4b4982b5275d21110800000000000000
+      internalID: 1230280335357940916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Festivalgoer-walk-side_2
+      name: Festivalgoer-side-idle_2
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
         height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5088aa6c7eb3759f0800000000000000
-      internalID: -479848968635119611
+      spriteID: 5914cc195e9a7e6c0800000000000000
+      internalID: -4114132931120971371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Festivalgoer-walk-side_3
+      name: Festivalgoer-side-idle_3
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
         height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09d2e780f63a4b460800000000000000
-      internalID: 7256604596879895952
+      spriteID: 29f241bc90b1a0cb0800000000000000
+      internalID: -4897071915936239726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-side-idle_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819f286665bd4ba70800000000000000
+      internalID: 8841933132568656152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-side-idle_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b7437252c3e82b0800000000000000
+      internalID: -5580456757996258462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-side-idle_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfc8c1eb3508d860800000000000000
+      internalID: 7554794129663250382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Festivalgoer-side-idle_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71fa43a0931e7c60800000000000000
+      internalID: 7817707515097575807
       vertices: []
       indices: 
       edges: []
@@ -201,7 +297,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: debd6356b321b0645937fd567e3049f9
+    spriteID: c08e2e16b5d803449932cef3c7b2b9ec
     internalID: 0
     vertices: []
     indices: 
