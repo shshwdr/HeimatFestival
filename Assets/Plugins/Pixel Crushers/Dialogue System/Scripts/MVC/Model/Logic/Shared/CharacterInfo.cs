@@ -129,7 +129,7 @@ namespace PixelCrushers.DialogueSystem
             {
                 result = DialogueLua.GetLocalizedActorField(nameInDatabase, "Name").asString;
             }
-            if(result == "NPC")
+            if(result .Contains( "NPC"))
             {
                 result = "";
             }

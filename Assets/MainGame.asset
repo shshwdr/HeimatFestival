@@ -511,7 +511,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]Wanna try the mini game?'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -596,7 +596,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]Sure!'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -669,7 +669,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]No..'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -742,7 +742,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]Wanna try it again?'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -828,7 +828,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]The DRINKS have been added to your inventory. Deliver them to
+          Klangarussell so the show can start!'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -902,7 +903,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]Hi'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -975,7 +976,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]Wanna try the game again?(You wont get anything)'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -1199,7 +1200,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: "[es]test I\u2019m so excited to know that I\u2019ll watch Klangkarussell
+          play in real life!"
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -1278,7 +1280,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: "[es]Why hasn\u2019t Klangkarussell\u2019s show started?"
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -1354,7 +1356,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]The show should have started long ago though. Do you know what
+          may be causing the delay?
+
+'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -1558,7 +1563,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]You bought a BRAND NAME and drank it. You feel energized and
+          can now hold the B button to move faster!  '
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -1770,7 +1776,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: "[es] It\u2019s a shame that Klangkarussell hasn\u2019t started to
+          play. Some people heard that they are waiting for something.\r\n"
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -1843,7 +1850,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: "[es]If only someone could talk to them to check what\u2019s happening\u2026 "
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2059,7 +2066,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: "[es]Finally someone shows up! We haven\u2019t been able to begin
+          our show because we need help with something. Could you please help us?"
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2144,7 +2152,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]You made it! These are the drinks we ordered!'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2224,7 +2232,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]As a thank you gift for helping us, we would like you to have
+          our unique and special ULTIMATE ARCADE TOKEN.'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2305,7 +2314,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]Did you get our beer?'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2378,7 +2387,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]Yes'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2457,7 +2466,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]No'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2536,7 +2545,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: "[es] I\u2019m glad you\u2019re willing to help us!"
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2610,7 +2619,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]That is not the proper attitude to have during the festival.
+          Remember to be kind to others!'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
@@ -2683,7 +2693,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: es
-        value: 
+        value: '[es]It allows you to play unlimited times on the arcade machines.'
         type: 4
         typeString: CustomFieldType_Localization
       - title: Menu Text es
