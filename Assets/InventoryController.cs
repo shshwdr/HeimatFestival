@@ -11,6 +11,7 @@ public class InventoryController : MonoBehaviour
     {
         updateInventory();
         EventPool.OptIn("dialogEnd", updateInventory);
+        EventPool.OptIn("languageUpdate", updateInventory);
     }
 
 
@@ -26,8 +27,8 @@ public class InventoryController : MonoBehaviour
             if (PixelCrushers.DialogueSystem.DialogueLua.GetItemField(item.Value.ToString(), "Amount").asInt > 0)
             {
                 cells[i].gameObject.SetActive(true);
-                cells[i].GetComponent<InventoryCell>().init(PixelCrushers.DialogueSystem.DialogueLua.GetItemField(item.Value.ToString(), "Display Name").asString,
-                    PixelCrushers.DialogueSystem.DialogueLua.GetItemField(item.Value.ToString(), "Description").asString,
+                cells[i].GetComponent<InventoryCell>().init(PixelCrushers.DialogueSystem.DialogueLua.GetLocalizedItemField(item.Value.ToString(), "Display Name").asString,
+                    PixelCrushers.DialogueSystem.DialogueLua.GetLocalizedItemField(item.Value.ToString(), "Description").asString,
                     Resources.Load<Sprite>("items/" + item.Value.ToString())
                     );
                 i++;

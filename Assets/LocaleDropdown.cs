@@ -1,4 +1,5 @@
 using PixelCrushers.DialogueSystem;
+using Pool;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,5 +36,6 @@ public class LocaleDropdown : MonoBehaviour
     {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[index];
         DialogueManager.SetLanguage(LocalizationSettings.SelectedLocale.Formatter.ToString());
+        EventPool.Trigger("languageUpdate");
     }
 }
