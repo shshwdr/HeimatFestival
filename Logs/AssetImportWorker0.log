@@ -11321,3 +11321,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 195.630217 seconds.
+  path: Assets/MainGame.asset
+  artifactKey: Guid(0d68096360c17fb47a4c3b4f3760b156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame.asset using Guid(0d68096360c17fb47a4c3b4f3760b156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cb574d555254eccb048ac451835faa') in 0.064868 seconds 
+  Import took 0.086131 seconds .
+
