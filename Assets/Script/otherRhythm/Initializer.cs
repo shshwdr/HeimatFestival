@@ -19,6 +19,7 @@ namespace RhythmHeavenMania
             GameObject Cameras = Instantiate(Resources.Load<GameObject>("Prefabs/Cameras")); 
             Cameras.name = "Cameras";
             GameObject MainCamera = Cameras.transform.GetChild(0).gameObject;
+
            // GameObject CursorCamera = Cameras.transform.GetChild(1).gameObject;
 
             //remove cursor
@@ -52,6 +53,12 @@ namespace RhythmHeavenMania
             Conductor.name = "Conductor";
             AudioSource source = Conductor.AddComponent<AudioSource>();
             source.clip = music;
+            if (PlayerPrefs.HasKey("bus:/Music"))
+            {
+                //changeVolume( PlayerPrefs.GetFloat(finalString));
+
+                source.volume = PlayerPrefs.GetFloat("bus:/Music");
+            }
             Conductor.AddComponent<Conductor>();
             Conductor.GetComponent<Conductor>().musicSource = source;
             // Conductor.AddComponent<AudioDspTimeKeeper>();

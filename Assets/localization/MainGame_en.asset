@@ -18,12 +18,24 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 120421605376
-    m_Localized: 'Language:'
+  - m_Id: 1045260942696448
+    m_Localized: Language
     m_Metadata:
       m_Items: []
-  - m_Id: 198745240100864
-    m_Localized: 'Language:'
+  - m_Id: 1045365179539456
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067561058820096
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067600770490368
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1070748016828416
+    m_Localized: Music
     m_Metadata:
       m_Items: []
   references:

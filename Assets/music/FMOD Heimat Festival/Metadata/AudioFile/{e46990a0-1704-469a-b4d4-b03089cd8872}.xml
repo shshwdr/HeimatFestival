@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e46990a0-1704-469a-b4d4-b03089cd8872}">
+		<property name="assetPath">
+			<value>Minigame 1 Temp BGM (120 BPM, Gm).wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80492664-e9a9-4eb0-80d4-dbee7eb31582}</destination>
+		</relationship>
+	</object>
+</objects>

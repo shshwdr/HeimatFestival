@@ -15,12 +15,24 @@ MonoBehaviour:
   m_TableCollectionName: MainGame
   m_TableCollectionNameGuidString: b0bd0e6dd30add744ad9dc5df4f5ecda
   m_Entries:
-  - m_Id: 120421605376
-    m_Key: 'Language:'
+  - m_Id: 1045260942696448
+    m_Key: SampleScene/Canvas/settingPanel/setting/localization/Text
     m_Metadata:
       m_Items: []
-  - m_Id: 198745240100864
-    m_Key: SampleScene/Canvas/localization/Text
+  - m_Id: 1045365179539456
+    m_Key: SampleScene/Canvas/settingPanel/setting/sfx controll (1)/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067561058820096
+    m_Key: SampleScene/Canvas/settingPanel/setting/BackToMenu/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067600770490368
+    m_Key: SampleScene/Canvas/settingPanel/setting/resume/Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1070748016828416
+    m_Key: SampleScene/Canvas/settingPanel/setting/music controll/Text 1
     m_Metadata:
       m_Items: []
   m_Metadata:

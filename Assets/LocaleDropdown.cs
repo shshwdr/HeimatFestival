@@ -9,33 +9,40 @@ using UnityEngine.UI;
 public class LocaleDropdown : MonoBehaviour
 {
     public Dropdown dropdown;
-
-    IEnumerator Start()
+    string languageSaveKey = "language";
+    void Start()
     {
-        dropdown = GetComponent<Dropdown>();
-        // Wait for the localization system to initialize
-        yield return LocalizationSettings.InitializationOperation;
-
-        // Generate list of available Locales
-        var options = new List<Dropdown.OptionData>();
-        int selected = 0;
-        for (int i = 0; i < LocalizationSettings.AvailableLocales.Locales.Count; ++i)
+        if (PlayerPrefs.HasKey(languageSaveKey))
         {
-            var locale = LocalizationSettings.AvailableLocales.Locales[i];
-            if (LocalizationSettings.SelectedLocale == locale)
-                selected = i;
-            options.Add(new Dropdown.OptionData(locale.name));
-        }
-        dropdown.options = options;
 
-        dropdown.value = selected;
-        dropdown.onValueChanged.AddListener(LocaleSelected);
+            LocaleSelected(PlayerPrefs.GetInt(languageSaveKey));
+        }
+        //dropdown = GetComponent<Dropdown>();
+        //// Wait for the localization system to initialize
+        //yield return LocalizationSettings.InitializationOperation;
+
+        //// Generate list of available Locales
+        //var options = new List<Dropdown.OptionData>();
+        //int selected = 0;
+        //for (int i = 0; i < LocalizationSettings.AvailableLocales.Locales.Count; ++i)
+        //{
+        //    var locale = LocalizationSettings.AvailableLocales.Locales[i];
+        //    if (LocalizationSettings.SelectedLocale == locale)
+        //        selected = i;
+        //    options.Add(new Dropdown.OptionData(locale.name));
+        //}
+        //dropdown.options = options;
+
+        //dropdown.value = selected;
+        //dropdown.onValueChanged.AddListener(LocaleSelected);
     }
 
-    static void LocaleSelected(int index)
+    public void LocaleSelected(int index)
     {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[index];
         DialogueManager.SetLanguage(LocalizationSettings.SelectedLocale.Formatter.ToString());
+
+        PlayerPrefs.SetInt(languageSaveKey, index);
         EventPool.Trigger("languageUpdate");
     }
 }
