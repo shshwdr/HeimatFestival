@@ -58,10 +58,6 @@ namespace RhythmHeavenMania.Games.Bar
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            }
             /*try
             {
                 var allPlayerActions = EventCaller.GetAllPlayerEntities("spaceball");

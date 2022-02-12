@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerGridMovement : Saver
 {
@@ -18,14 +19,63 @@ public class PlayerGridMovement : Saver
     Animator animator;
     bool canRun = false;
     bool startMove = false;
+    public PlayerInput playerInput;
+    bool isPressingB;
+    bool inputStarted;
     // Start is called before the first frame update
     public override void Start()
     {
         base.Start();
         animator = GetComponentInChildren<Animator>();
+
+        playerInput = CSGameManager.Instance.playerInput;
+        playerInput.actions["A"].started += OnPressA;
+
+        playerInput.actions["B"].started += OnStartPressB;
+        playerInput.actions["B"].canceled += OnFinishPressB;
+
+        playerInput.actions["Move"].started += OnMove;
+        playerInput.actions["Move"].performed += OnMove;
+        playerInput.actions["Move"].canceled += OnMove;
     }
 
-    void flip()
+
+    public override void OnDisable()
+    {
+
+        //playerInput.actions["A"].started -= OnPressA;
+        //playerInput.actions["B"].started -= OnStartPressB;
+        //playerInput.actions["B"].canceled -= OnFinishPressB;
+
+        //playerInput.actions["Move"].started -= OnMove;
+        //playerInput.actions["Move"].performed -= OnMove;
+        //playerInput.actions["Move"].canceled -= OnMove;
+        base.OnDisable();
+    }
+
+    void OnMove(InputAction.CallbackContext context)
+    {
+        //Debug.Log("start move " +context);
+        inputStarted = true;
+
+    }
+
+    private void OnFinishPressB(InputAction.CallbackContext obj)
+    {
+        isPressingB = false;
+    }
+
+    private void OnStartPressB(InputAction.CallbackContext obj)
+    {
+        isPressingB = true;
+    }
+
+    public void OnPressA(InputAction.CallbackContext context)
+    {
+        GetComponent<PlayerTalk>().talk();
+    }
+
+        void flip()
     {
         facingRight = !facingRight;
         if (spriteObject)
@@ -63,7 +113,7 @@ public class PlayerGridMovement : Saver
             //print("still loading!");
             return;
         }
-        var isRunning = (canRun && Input.GetKey(KeyCode.X));
+        var isRunning = (canRun && isPressingB);
         var speed = isRunning ? runSpeed : moveSpeed;
         animator.SetBool("isRunning", isRunning);
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
@@ -75,9 +125,13 @@ public class PlayerGridMovement : Saver
         }
         if (Vector3.Distance(transform.position, movePoint.position) < moveAllowDistance)
         {
-
-            var horizonMovement = Input.GetAxisRaw("Horizontal");
-            var verticalMovement = Input.GetAxisRaw("Vertical");
+            //if (inputStarted)
+            // {
+            var horizonMovement = Mathf.CeilToInt((playerInput.actions["Move"].ReadValue<Vector2>().x));
+            var verticalMovement = Mathf.CeilToInt((playerInput.actions["Move"].ReadValue<Vector2>().y));
+            //}
+            //var horizonMovement = Input.GetAxisRaw("Horizontal");
+            //var verticalMovement = Input.GetAxisRaw("Vertical");
             if (Mathf.Abs(horizonMovement) == 1)
             {
                 if (!Physics2D.OverlapCircle(movePoint.position +new Vector3(moveStepDistance/2f, moveStepDistance / 2f ,0)+ new Vector3(horizonMovement* moveStepDistance, 0, 0), .05f, colliderMask))

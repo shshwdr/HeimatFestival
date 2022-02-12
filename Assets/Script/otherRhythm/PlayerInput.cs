@@ -1,11 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace RhythmHeavenMania
 {
+
+
     public class PlayerInput
     {
+
+
         public static bool Pressed()
         {
             return Input.GetKeyDown(KeyCode.Z) && !GameManager.instance.autoplay && Conductor.instance.isPlaying;

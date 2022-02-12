@@ -27,9 +27,10 @@ namespace RhythmHeavenMania.Games.Bar
         public float hitRot;
         public float randomEndPosX;
         public bool type;
-
+        NewPlayerInput PlayerInput;
         private void Start()
         {
+            PlayerInput = GameObject.FindObjectOfType<NewPlayerInput>();
             anim = GetComponent<Animator>();
 
             e.gameObject = this.gameObject;

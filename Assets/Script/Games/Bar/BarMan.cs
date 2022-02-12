@@ -30,9 +30,10 @@ namespace RhythmHeavenMania.Games.Bar
         {
             instance = this;
         }
-
+        NewPlayerInput PlayerInput;
         private void Start()
         {
+            PlayerInput = GameObject.FindObjectOfType<NewPlayerInput>();
             anim = GetComponent<Animator>();
         }
 
