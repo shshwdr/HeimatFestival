@@ -15,11 +15,11 @@ C:/Users/csviv/Desktop/unity/Heimat Festival
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60492
+63480
 Successfully changed project path to: C:/Users/csviv/Desktop/unity/Heimat Festival
 C:/Users/csviv/Desktop/unity/Heimat Festival
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 559.00 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 659.15 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.22f1/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003698 seconds.
+Registered in 0.008086 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 296.50 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 684.96 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.419 seconds
+- Completed reload, in  2.682 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1419ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (2683ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1159ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2223ms)
+			LoadAssemblies (185ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (525ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (568ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (1180ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (297ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (685ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.035041 seconds.
+Registered in 0.031887 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 318.04 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 648.19 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.211 seconds
+- Completed reload, in  6.397 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3213ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (6401ms)
+		BeginReloadAssembly (474ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (2848ms)
-			LoadAssemblies (194ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (5696ms)
+			LoadAssemblies (374ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (782ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (253ms)
-			SetupLoadedEditorAssemblies (1405ms)
+			SetupTypeCache (1544ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (465ms)
+			SetupLoadedEditorAssemblies (2801ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (318ms)
-				BeforeProcessingInitializeOnLoad (243ms)
-				ProcessInitializeOnLoadAttributes (632ms)
-				ProcessInitializeOnLoadMethodAttributes (195ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (648ms)
+				BeforeProcessingInitializeOnLoad (486ms)
+				ProcessInitializeOnLoadAttributes (1183ms)
+				ProcessInitializeOnLoadMethodAttributes (439ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 3.98 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6238 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 248.4 MB.
 System memory in use after: 248.8 MB.
 
 Unloading 178 unused Assets to reduce memory usage. Loaded Objects now: 6614.
-Total: 8.904700 ms (FindLiveObjects: 0.659000 ms CreateObjectMapping: 0.490900 ms MarkObjects: 7.380100 ms  DeleteObjects: 0.372200 ms)
+Total: 12.207100 ms (FindLiveObjects: 0.896700 ms CreateObjectMapping: 0.582200 ms MarkObjects: 10.136000 ms  DeleteObjects: 0.588600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,27 +134,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/test.spriteatlas
-  artifactKey: Guid(8b6c1425695c07a4cb11f8dc9efca7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/test.spriteatlas using Guid(8b6c1425695c07a4cb11f8dc9efca7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec64779530f0179b90f2a956dc24f35') in 0.119074 seconds 
-  Import took 0.143021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.190595 seconds.
-  path: Assets/test.spriteatlas
-  artifactKey: Guid(8b6c1425695c07a4cb11f8dc9efca7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/test.spriteatlas using Guid(8b6c1425695c07a4cb11f8dc9efca7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f80b10137e924189899b7c6f1cc1e11') in 0.006132 seconds 
-  Import took 0.027158 seconds .
+  path: Assets/art/background2/festival_bg_tiles.png
+  artifactKey: Guid(40fdf5cd99b68884893fccea04c41d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles.png using Guid(40fdf5cd99b68884893fccea04c41d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09e63ff826af0c1b6b1b3f025d5e4f2') in 1.704367 seconds 
+  Import took 1.739293 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008515 seconds.
+Registered in 0.034413 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.03 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.52 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
   at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
@@ -193,252 +185,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.941 seconds
+- Completed reload, in  3.103 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2942ms)
-		BeginReloadAssembly (312ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (111ms)
-		EndReloadAssembly (2419ms)
-			LoadAssemblies (302ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (750ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (166ms)
-			SetupLoadedEditorAssemblies (932ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (234ms)
-				ProcessInitializeOnLoadAttributes (467ms)
-				ProcessInitializeOnLoadMethodAttributes (202ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (49ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.41 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 241.4 MB.
-System memory in use after: 241.8 MB.
-
-Unloading 159 unused Assets to reduce memory usage. Loaded Objects now: 6615.
-Total: 6.430900 ms (FindLiveObjects: 0.592600 ms CreateObjectMapping: 0.448500 ms MarkObjects: 5.225500 ms  DeleteObjects: 0.162500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 71.380039 seconds.
-  path: Assets/art/background2
-  artifactKey: Guid(19a053e019304804c8d8aec56f13bd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/background2 using Guid(19a053e019304804c8d8aec56f13bd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da3061561a3e0bbde25f961b910fef5') in 0.022161 seconds 
-  Import took 0.046944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.608922 seconds.
-  path: Assets/test.spriteatlasv2
-  artifactKey: Guid(76e4d3ad92ab6ca4aaaa0cdf1e1826ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/test.spriteatlasv2 using Guid(76e4d3ad92ab6ca4aaaa0cdf1e1826ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12186bd770e77087d774a060523053c9') in 0.030710 seconds 
-  Import took 0.047927 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008595 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.92 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
-  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
-  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
-  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
-   --- End of inner exception stack trace ---
-  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
-  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
-  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
-  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
-  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
-  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
-   --- End of inner exception stack trace ---
-  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
-  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
-  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.869 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2870ms)
-		BeginReloadAssembly (233ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (2500ms)
-			LoadAssemblies (204ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (762ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (156ms)
-			SetupLoadedEditorAssemblies (1035ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (231ms)
-				ProcessInitializeOnLoadAttributes (561ms)
-				ProcessInitializeOnLoadMethodAttributes (220ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (83ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.46 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 241.6 MB.
-System memory in use after: 242.0 MB.
-
-Unloading 158 unused Assets to reduce memory usage. Loaded Objects now: 6617.
-Total: 5.545800 ms (FindLiveObjects: 0.589200 ms CreateObjectMapping: 0.347600 ms MarkObjects: 4.378400 ms  DeleteObjects: 0.228700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 65.881577 seconds.
-  path: Assets/PlayerTalk.cs
-  artifactKey: Guid(480129e80ada5ba40ab0446ab631b9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerTalk.cs using Guid(480129e80ada5ba40ab0446ab631b9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407944af0004528e73b2f1d61a64ece2') in 0.033635 seconds 
-  Import took 0.055791 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022313 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.73 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
-  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
-  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
-  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
-   --- End of inner exception stack trace ---
-  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
-  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
-  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
-  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
-  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
-  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
-   --- End of inner exception stack trace ---
-  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
-  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
-  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.300 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3301ms)
-		BeginReloadAssembly (247ms)
+	ReloadAssembly (3104ms)
+		BeginReloadAssembly (261ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (2921ms)
-			LoadAssemblies (203ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2713ms)
+			LoadAssemblies (234ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1038ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (183ms)
-			SetupLoadedEditorAssemblies (1199ms)
+			SetupTypeCache (929ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (195ms)
+			SetupLoadedEditorAssemblies (1048ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (263ms)
-				ProcessInitializeOnLoadAttributes (664ms)
-				ProcessInitializeOnLoadMethodAttributes (243ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (274ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (219ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (90ms)
+			AwakeInstancesAfterBackupRestoration (56ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.48 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.49 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 241.7 MB.
-System memory in use after: 242.1 MB.
+Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.8 MB.
+System memory in use after: 245.9 MB.
 
-Unloading 158 unused Assets to reduce memory usage. Loaded Objects now: 6619.
-Total: 8.131600 ms (FindLiveObjects: 0.519500 ms CreateObjectMapping: 0.517800 ms MarkObjects: 6.782300 ms  DeleteObjects: 0.310000 ms)
+Unloading 160 unused Assets to reduce memory usage. Loaded Objects now: 6640.
+Total: 6.354000 ms (FindLiveObjects: 0.490200 ms CreateObjectMapping: 0.325100 ms MarkObjects: 4.929600 ms  DeleteObjects: 0.606900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -450,4 +232,976 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 1016.625668 seconds.
+  path: Assets/art/rules/groundOnGrass.asset
+  artifactKey: Guid(652b199c85f730d488b4b73c6f0f0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/groundOnGrass.asset using Guid(652b199c85f730d488b4b73c6f0f0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b73c35584baa80bc4dac88149a3a4aa') in 0.040569 seconds 
+  Import took 0.055186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.509641 seconds.
+  path: Assets/art/background2/festival_bg_tiles_1.asset
+  artifactKey: Guid(ce727102efd2d4244a429093df55118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_1.asset using Guid(ce727102efd2d4244a429093df55118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9813366a7b635d272d86ceb749f30814') in 0.095068 seconds 
+  Import took 0.123127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.564155 seconds.
+  path: Assets/art/background2/festival_bg_tiles_2.asset
+  artifactKey: Guid(63f87ec6d65d533459aada37bd04713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_2.asset using Guid(63f87ec6d65d533459aada37bd04713e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef41640410465965cc7055b6fcc8a14') in 0.037484 seconds 
+  Import took 0.057313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/art/background2/festival_bg_tiles_9.asset
+  artifactKey: Guid(8ecea6f26195b954c83cd2f06ffaf752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_9.asset using Guid(8ecea6f26195b954c83cd2f06ffaf752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6684572272b4a4e35d324e6de4d701b8') in 0.026030 seconds 
+  Import took 0.038768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/art/background2/festival_bg_tiles_23.asset
+  artifactKey: Guid(7b0241b1b0aa34a40b0256d8d11cbee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_23.asset using Guid(7b0241b1b0aa34a40b0256d8d11cbee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d940e7e0b136ea3c2f14426b8b54c97') in 0.022482 seconds 
+  Import took 0.035296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/art/background2/festival_bg_tiles_16.asset
+  artifactKey: Guid(47efa2ce163afbe4ab596ccd3152fd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_16.asset using Guid(47efa2ce163afbe4ab596ccd3152fd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d4796d0fe758b5bd65bc3ffa20a2eb') in 0.025995 seconds 
+  Import took 0.039554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/art/background2/festival_bg_tiles_36.asset
+  artifactKey: Guid(e182088ac51e6f8418f410c7a2c97d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_36.asset using Guid(e182088ac51e6f8418f410c7a2c97d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e83bad935ca539a85b224796cf508d6') in 0.027687 seconds 
+  Import took 0.041628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/art/background2/festival_bg_tiles_51.asset
+  artifactKey: Guid(e3b3ac6d5d6c550448cba326f74ee60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_51.asset using Guid(e3b3ac6d5d6c550448cba326f74ee60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57bfce0f55803ed88a5e8a065653122') in 0.024466 seconds 
+  Import took 0.042959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/art/background2/festival_bg_tiles_71.asset
+  artifactKey: Guid(60a2d483ac79f2046b4c3f939df23773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_71.asset using Guid(60a2d483ac79f2046b4c3f939df23773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c2f2f6ba8146a38f421a2ac35daf77') in 0.028966 seconds 
+  Import took 0.045856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/art/background2/festival_bg_tiles_67.asset
+  artifactKey: Guid(60f6df9ae588cc744bf796c1f7b3f2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_67.asset using Guid(60f6df9ae588cc744bf796c1f7b3f2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9012f0ddef5a0dc0b2de7defdde50031') in 0.026120 seconds 
+  Import took 0.042775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/art/background2/festival_bg_tiles_69.asset
+  artifactKey: Guid(0a5c3d419ee70e54fb0d7e81c507881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_69.asset using Guid(0a5c3d419ee70e54fb0d7e81c507881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd71ae8084f0418fc0300a0fd2d3e61') in 0.026622 seconds 
+  Import took 0.046157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/art/background2/festival_bg_tiles_63.asset
+  artifactKey: Guid(458594d751545b841ac5310bca80e9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_63.asset using Guid(458594d751545b841ac5310bca80e9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014ca1dfc458ec9adaa50156cbe72e0e') in 0.025784 seconds 
+  Import took 0.040350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/art/background2/festival_bg_tiles_10.asset
+  artifactKey: Guid(9093cb02c9739884096d586fab3002aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_10.asset using Guid(9093cb02c9739884096d586fab3002aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24bbe26ea5ffc48695d556abb9c9e35') in 0.023565 seconds 
+  Import took 0.040139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/art/background2/festival_bg_tiles_24.asset
+  artifactKey: Guid(212c17c7a9d0b43468b7ab9125a33fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_24.asset using Guid(212c17c7a9d0b43468b7ab9125a33fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4571094e142660517a972e7af36a7c4') in 0.027817 seconds 
+  Import took 0.043040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/art/background2/festival_bg_tiles_81.asset
+  artifactKey: Guid(137839ca6ff57034083c44bb29f47de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_81.asset using Guid(137839ca6ff57034083c44bb29f47de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed6e50ae52ca9e8fa1a673e5194d8f5') in 0.024402 seconds 
+  Import took 0.041352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/art/background2/festival_bg_tiles_17.asset
+  artifactKey: Guid(9463c17939b82564faced8fb61458be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_17.asset using Guid(9463c17939b82564faced8fb61458be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6114ba708cfc5062e1baf12c337f0993') in 0.022581 seconds 
+  Import took 0.036169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/art/background2/festival_bg_tiles_35.asset
+  artifactKey: Guid(d7b154891d0527b4a8a46df8ff2c8b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_35.asset using Guid(d7b154891d0527b4a8a46df8ff2c8b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba5cc1d99cc8e822b293cd6ac29eb56') in 0.020206 seconds 
+  Import took 0.035103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/art/background2/festival_bg_tiles_39.asset
+  artifactKey: Guid(b1d8669978f541640b2b6daf65c19301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_39.asset using Guid(b1d8669978f541640b2b6daf65c19301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511a7f47c34af5a90d24a6162c38891e') in 0.023815 seconds 
+  Import took 0.038891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/art/background2/festival_bg_tiles_62.asset
+  artifactKey: Guid(bab05c497342c7d45beeb8208ce5287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_62.asset using Guid(bab05c497342c7d45beeb8208ce5287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac443d0d2375c637c63f01192a193e1b') in 0.023828 seconds 
+  Import took 0.039646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/art/background2/festival_bg_tiles_14.asset
+  artifactKey: Guid(9b02f9ea25dbeed41870cb17c59d54a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_14.asset using Guid(9b02f9ea25dbeed41870cb17c59d54a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7705522d38f8abe8a43475ae2535518b') in 0.022781 seconds 
+  Import took 0.042625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/art/background2/festival_bg_tiles_41.asset
+  artifactKey: Guid(79960ce2c3219a44399bcd4ba0b1a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_41.asset using Guid(79960ce2c3219a44399bcd4ba0b1a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3705aa5d468e020c3e32e58416d4e229') in 0.036751 seconds 
+  Import took 0.060781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/art/background2/festival_bg_tiles_45.asset
+  artifactKey: Guid(d119e771cb813574280a300f306ca572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_45.asset using Guid(d119e771cb813574280a300f306ca572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5402edde675957ea768bc9953121cd51') in 0.039424 seconds 
+  Import took 0.066010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/art/background2/festival_bg_tiles_19.asset
+  artifactKey: Guid(353201e530a284b4db72afb0d25b1c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_19.asset using Guid(353201e530a284b4db72afb0d25b1c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8374eb2edaae31da2faf91681239ec30') in 0.028262 seconds 
+  Import took 0.050456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/art/background2/festival_bg_tiles_37.asset
+  artifactKey: Guid(575a25381d69b6c499b46db3e1f1509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_37.asset using Guid(575a25381d69b6c499b46db3e1f1509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb9e98561199dd0d4ed84f1edc64e48') in 0.027511 seconds 
+  Import took 0.049081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/art/background2/festival_bg_tiles_59.asset
+  artifactKey: Guid(fb5e6bedd6319b34eb591797f76bc33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_59.asset using Guid(fb5e6bedd6319b34eb591797f76bc33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb153075544c7f79371fb16376920fba') in 0.019093 seconds 
+  Import took 0.035372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/art/background2/festival_bg_tiles_44.asset
+  artifactKey: Guid(6981e7442246d7e4f94b423bc6a74045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_44.asset using Guid(6981e7442246d7e4f94b423bc6a74045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ad9f58fa1061e213a296302ece1fbc') in 0.058731 seconds 
+  Import took 0.074612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/art/background2/festival_bg_tiles_66.asset
+  artifactKey: Guid(f08fdbe0bb60f364dbe197d00ab8efe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_66.asset using Guid(f08fdbe0bb60f364dbe197d00ab8efe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fed4175e75ebe6d0be2af83e115ab08') in 0.158254 seconds 
+  Import took 0.198044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/art/background2/festival_bg_tiles_79.asset
+  artifactKey: Guid(e41711366abdbaf41a7d25f9d3d84a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_79.asset using Guid(e41711366abdbaf41a7d25f9d3d84a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0299591f28d40cf23ab6b7eef349684') in 0.217297 seconds 
+  Import took 0.238847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/art/background2/festival_bg_tiles_38.asset
+  artifactKey: Guid(c948ae1535ca88148ba8a19198cd9766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_38.asset using Guid(c948ae1535ca88148ba8a19198cd9766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ee1b3a0c341abe7bcdd5fbde6c7cb2') in 0.028735 seconds 
+  Import took 0.045531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/art/background2/festival_bg_tiles_70.asset
+  artifactKey: Guid(00dd991e407c3474f9a5a4e82462950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_70.asset using Guid(00dd991e407c3474f9a5a4e82462950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97b9bd6b304bbcf18ef9e34dfec2826') in 0.031418 seconds 
+  Import took 0.048299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/art/background2/festival_bg_tiles_50.asset
+  artifactKey: Guid(9912f6de101d1514096f07b2ea8b571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_50.asset using Guid(9912f6de101d1514096f07b2ea8b571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1dc17894200f8d18b25d34a5e24f6a') in 0.026406 seconds 
+  Import took 0.040738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/art/background2/festival_bg_tiles_8.asset
+  artifactKey: Guid(046ae6474e85ff148b4d2d8f80cf46e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_8.asset using Guid(046ae6474e85ff148b4d2d8f80cf46e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82ee09df0c5ea616ad55d36c6380385') in 0.052584 seconds 
+  Import took 0.074859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/art/background2/festival_bg_tiles_11.asset
+  artifactKey: Guid(780d1f14fa818274c934a4d1f764bb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_11.asset using Guid(780d1f14fa818274c934a4d1f764bb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e2103d982c63686fa94ec9c6e10113') in 0.111133 seconds 
+  Import took 0.182626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/art/background2/festival_bg_tiles_5.asset
+  artifactKey: Guid(bdbf18611739c3d44a1313aa5577e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_5.asset using Guid(bdbf18611739c3d44a1313aa5577e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91868e54ef0d6be262bd1e5f1907357') in 0.026553 seconds 
+  Import took 0.106101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/art/background2/festival_bg_tiles_88.asset
+  artifactKey: Guid(ea973d0e20699f446bd8cd8700932cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_88.asset using Guid(ea973d0e20699f446bd8cd8700932cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bc4177f9f9eda68450b7fc39ca4d4a') in 0.023509 seconds 
+  Import took 0.038879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/art/background2/festival_bg_tiles_30.asset
+  artifactKey: Guid(3c82c1e6151a98c4ba363ee9ac8710f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_30.asset using Guid(3c82c1e6151a98c4ba363ee9ac8710f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071821693a376db585051ebc3c5b7a2f') in 0.029100 seconds 
+  Import took 0.043735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/art/background2/festival_bg_tiles_85.asset
+  artifactKey: Guid(186cd00042b48014887f9f9c75e68b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_85.asset using Guid(186cd00042b48014887f9f9c75e68b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c7ce3593a32ca235b5f80a8e86ea2a') in 0.024896 seconds 
+  Import took 0.039175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/art/background2/festival_bg_tiles_6.asset
+  artifactKey: Guid(4f6a0d140e501274e9ed997d193ba459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_6.asset using Guid(4f6a0d140e501274e9ed997d193ba459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e190b38eb837a02ff5dabe197dd040db') in 0.025376 seconds 
+  Import took 0.043100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/art/background2/festival_bg_tiles_83.asset
+  artifactKey: Guid(43b728c27b1e8b44ebcfcd5ce2106cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_83.asset using Guid(43b728c27b1e8b44ebcfcd5ce2106cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f3d6e883cfb64ce617912030f3fe68') in 0.031241 seconds 
+  Import took 0.048857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/art/background2/festival_bg_tiles_22.asset
+  artifactKey: Guid(e9c33cdc8dfb4af488db99d26c0f55e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_22.asset using Guid(e9c33cdc8dfb4af488db99d26c0f55e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fc99dc293ed0c3a874a2f4181ab18f') in 0.029801 seconds 
+  Import took 0.052175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/art/background2/festival_bg_tiles_25.asset
+  artifactKey: Guid(8758b97ed70a55445b75d4a058ac287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_25.asset using Guid(8758b97ed70a55445b75d4a058ac287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7986a2dfbd399ee26b401d82b9054d5a') in 0.033069 seconds 
+  Import took 0.055551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/art/background2/festival_bg_tiles_46.asset
+  artifactKey: Guid(44c9f3719ebc5044d9c5f0d131ca406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_46.asset using Guid(44c9f3719ebc5044d9c5f0d131ca406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6adf4ff4c996f8b696445ee016b86c') in 0.029779 seconds 
+  Import took 0.050219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/art/background2/festival_bg_tiles_26.asset
+  artifactKey: Guid(9a3501ee2969059498081bef25d2753c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_26.asset using Guid(9a3501ee2969059498081bef25d2753c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7029485534dfbc9b60af9a58d6ffc69b') in 0.027586 seconds 
+  Import took 0.048114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/art/background2/festival_bg_tiles_82 1.asset
+  artifactKey: Guid(73a78ee76e37cf449906b54d99ec52b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_82 1.asset using Guid(73a78ee76e37cf449906b54d99ec52b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3e98e2f910a124317db1a5291d423c') in 0.026582 seconds 
+  Import took 0.051484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/art/background2/festival_bg_tiles_34.asset
+  artifactKey: Guid(213d32081e9e536448134298a6f8a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_34.asset using Guid(213d32081e9e536448134298a6f8a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff26dc053c22153b3640f6aef5b0980') in 0.026337 seconds 
+  Import took 0.047868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/art/background2/festival_bg_tiles_40.asset
+  artifactKey: Guid(19d4c065107bceb4ea32ce17e8e1e9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_40.asset using Guid(19d4c065107bceb4ea32ce17e8e1e9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03dc986e28edc7cd53c43287b7ad3e') in 0.026565 seconds 
+  Import took 0.045389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/art/background2/festival_bg_tiles_33.asset
+  artifactKey: Guid(bc84f0561425b7746a43457517073eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_33.asset using Guid(bc84f0561425b7746a43457517073eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621020a0490432089e2f0a3c8da7cda7') in 0.023320 seconds 
+  Import took 0.041758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/art/background2/festival_bg_tiles_65.asset
+  artifactKey: Guid(b5f0344d5952fe24a8b83d09232741c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_65.asset using Guid(b5f0344d5952fe24a8b83d09232741c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be3b6f3d293890ce73175d69176b46f') in 0.026013 seconds 
+  Import took 0.045560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/art/background2/festival_bg_tiles_56.asset
+  artifactKey: Guid(71da1ff5b85b280469912cd773eba331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_56.asset using Guid(71da1ff5b85b280469912cd773eba331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af72f54ba83e483592f1d62269b254c') in 0.025535 seconds 
+  Import took 0.045633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/art/background2/festival_bg_tiles_13.asset
+  artifactKey: Guid(3457e1de43408e74a95248fb81c9604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_13.asset using Guid(3457e1de43408e74a95248fb81c9604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b309bc7a39b3f10554ffc0ddd7a426') in 0.039606 seconds 
+  Import took 0.063070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/art/background2/festival_bg_tiles_58.asset
+  artifactKey: Guid(d647e4eed5ece834584d4a709fd444ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_58.asset using Guid(d647e4eed5ece834584d4a709fd444ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36b4328e7820bb97439cf625b7523fd') in 0.022264 seconds 
+  Import took 0.042266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/art/background2/festival_bg_tiles_60.asset
+  artifactKey: Guid(f67d901b5207b1b4ca6a59072b692b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_60.asset using Guid(f67d901b5207b1b4ca6a59072b692b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158ba162541eb73a41626681b2fb8900') in 0.027447 seconds 
+  Import took 0.046468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/art/background2/festival_bg_tiles_4.asset
+  artifactKey: Guid(2e172ca3cd843cb4297a92e3035b58b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_4.asset using Guid(2e172ca3cd843cb4297a92e3035b58b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05efe0a2f8fa19406bc8027bad699e67') in 0.029084 seconds 
+  Import took 0.045958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/art/background2/festival_bg_tiles_15.asset
+  artifactKey: Guid(38f3fad389602e447aa5914203f727ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_15.asset using Guid(38f3fad389602e447aa5914203f727ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe22e41ccd9b88af4a0fff07d29ce20') in 0.026887 seconds 
+  Import took 0.046011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/art/background2/festival_bg_tiles_57.asset
+  artifactKey: Guid(24287b6b314813146a35f4172867762f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_57.asset using Guid(24287b6b314813146a35f4172867762f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36328c718295bdb078b61fbcf50dd2e3') in 0.027424 seconds 
+  Import took 0.047102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/art/background2/festival_bg_tiles_73.asset
+  artifactKey: Guid(f67ca11e894a17148966da3452706198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_73.asset using Guid(f67ca11e894a17148966da3452706198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0666b7a908c17cac56b8fe032f55cfb7') in 0.032086 seconds 
+  Import took 0.054608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/art/background2/festival_bg_tiles_43.asset
+  artifactKey: Guid(9820a10a96e52064d9f94e67f2298a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_43.asset using Guid(9820a10a96e52064d9f94e67f2298a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09823abe848a9cb941d9d1ae1c00417e') in 0.026412 seconds 
+  Import took 0.045296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/art/background2/festival_bg_tiles_72.asset
+  artifactKey: Guid(69a5c3b2a69e28a4aa3751f1473f6538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_72.asset using Guid(69a5c3b2a69e28a4aa3751f1473f6538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f699975c01ec6d71dd0570628a74d09') in 0.022512 seconds 
+  Import took 0.041154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/art/background2/festival_bg_tiles_80.asset
+  artifactKey: Guid(c139e965f0489654ea0ffd7aa64f6a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_80.asset using Guid(c139e965f0489654ea0ffd7aa64f6a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28ffbd77966061ce46f20982e382744') in 0.024122 seconds 
+  Import took 0.044735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/art/background2/festival_bg_tiles_52.asset
+  artifactKey: Guid(659b808482112de428aea84da376cf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_52.asset using Guid(659b808482112de428aea84da376cf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0424d4d7c9c61e027ab4ef598da706') in 0.044636 seconds 
+  Import took 0.068713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/art/background2/festival_bg_tiles_18.asset
+  artifactKey: Guid(9930ba261ef45dc45b1cd34782d22448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_18.asset using Guid(9930ba261ef45dc45b1cd34782d22448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23488f7bd21b14c4ec7d81399a354c3') in 0.030763 seconds 
+  Import took 0.053561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/art/background2/festival_bg_tiles_27.asset
+  artifactKey: Guid(1c7dfd49ee9616045b31ee5494b8aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_27.asset using Guid(1c7dfd49ee9616045b31ee5494b8aa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e572820cd856738e579e6c19be65cfd9') in 0.033326 seconds 
+  Import took 0.056609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/art/background2/festival_bg_tiles_54.asset
+  artifactKey: Guid(973e4b7be707c6744ab13fe216e6a8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_54.asset using Guid(973e4b7be707c6744ab13fe216e6a8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eefb2eb4bffef1464036394f4179748') in 0.030215 seconds 
+  Import took 0.051677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/art/background2/festival_bg_tiles_78.asset
+  artifactKey: Guid(cecc14b20fa0ddd46978e856565466ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_78.asset using Guid(cecc14b20fa0ddd46978e856565466ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986c0eca4987233a3ff311bed1b9510a') in 0.032143 seconds 
+  Import took 0.057023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/art/background2/festival_bg_tiles_86.asset
+  artifactKey: Guid(035de7769172294428053f73efe4f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_86.asset using Guid(035de7769172294428053f73efe4f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb001c539e2afd464c70e5024bebbd6') in 0.044705 seconds 
+  Import took 0.072713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/art/background2/festival_bg_tiles_32.asset
+  artifactKey: Guid(2972929df2e3e8d4ca94170b839239fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_32.asset using Guid(2972929df2e3e8d4ca94170b839239fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a343592f99622fe8c0e9a0e80fc771') in 0.057279 seconds 
+  Import took 0.108104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001002 seconds.
+  path: Assets/art/background2/festival_bg_tiles_77.asset
+  artifactKey: Guid(c0ee737ccf315634986ce0b6a8ac4ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_77.asset using Guid(c0ee737ccf315634986ce0b6a8ac4ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c840d66e6ceec6d116e09c585f01b7') in 0.167811 seconds 
+  Import took 0.194146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/art/background2/festival_bg_tiles_87.asset
+  artifactKey: Guid(3c3c9535b98e3924185506f63e8d4e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_87.asset using Guid(3c3c9535b98e3924185506f63e8d4e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673aa36e73ad66299021cb0c6d5e25cb') in 0.035266 seconds 
+  Import took 0.079200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001154 seconds.
+  path: Assets/art/background2/festival_bg_tiles_49.asset
+  artifactKey: Guid(686e2e9c93bc8a2498ade25b21812d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_49.asset using Guid(686e2e9c93bc8a2498ade25b21812d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24bee3bf13f57ad099f01111e9218e5') in 0.071434 seconds 
+  Import took 0.090556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/art/background2/festival_bg_tiles_74.asset
+  artifactKey: Guid(85a2584136f79a843aba7c41d138f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_74.asset using Guid(85a2584136f79a843aba7c41d138f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134df9af0e4e1c464a775693855dbdf4') in 0.029345 seconds 
+  Import took 0.044847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/art/background2/festival_bg_tiles_3.asset
+  artifactKey: Guid(3d656846f741a994080ba8ef8a0b43e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_3.asset using Guid(3d656846f741a994080ba8ef8a0b43e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffb82d340124724d74f1d9448a9b55e') in 0.034399 seconds 
+  Import took 0.053727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/art/background2/festival_bg_tiles_84.asset
+  artifactKey: Guid(79a3a092454ac2e40a9934ab406066ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_84.asset using Guid(79a3a092454ac2e40a9934ab406066ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed8d052c604bdd19db9a8a45249635a') in 0.030150 seconds 
+  Import took 0.047582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/art/background2/festival_bg_tiles_12.asset
+  artifactKey: Guid(d934295cb52724743a5261c02a98e6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_12.asset using Guid(d934295cb52724743a5261c02a98e6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8228707d2f93351dc1c23d56214f91a') in 0.024674 seconds 
+  Import took 0.041122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/art/background2/festival_bg_tiles_29.asset
+  artifactKey: Guid(e02c7c53673dc5c4088733744894b7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_29.asset using Guid(e02c7c53673dc5c4088733744894b7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def01f22b2e2ae6654c0886bd5579ecb') in 0.086033 seconds 
+  Import took 0.101337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/art/background2/festival_bg_tiles_31.asset
+  artifactKey: Guid(07b621591a7442144a7ec8a433eb826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_31.asset using Guid(07b621591a7442144a7ec8a433eb826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500d2b234f6f0fa40977152ff81b9591') in 0.146953 seconds 
+  Import took 0.174465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/art/background2/festival_bg_tiles_48.asset
+  artifactKey: Guid(bf5d3a35ee13767419fdebc9f1e18d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_48.asset using Guid(bf5d3a35ee13767419fdebc9f1e18d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f57b44bd37bb96b6c1048ba8c587190') in 0.132799 seconds 
+  Import took 0.157032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/art/background2/festival_bg_tiles_47.asset
+  artifactKey: Guid(e1036a207b427f44790bcf343f7aa4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_47.asset using Guid(e1036a207b427f44790bcf343f7aa4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217747c321f9502bb78fa74511d8cfeb') in 0.026337 seconds 
+  Import took 0.043426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/art/background2/festival_bg_tiles_55.asset
+  artifactKey: Guid(62d4f8c33fae7f540ba63f3607aee757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_55.asset using Guid(62d4f8c33fae7f540ba63f3607aee757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56090861b2099a09715052746748c21') in 0.029809 seconds 
+  Import took 0.048316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/art/background2/festival_bg_tiles_82.asset
+  artifactKey: Guid(8f04a033f38e2344caeaf4bb597693b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_82.asset using Guid(8f04a033f38e2344caeaf4bb597693b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a1bfaa2226cfb0adc272b7784c62ed') in 0.028437 seconds 
+  Import took 0.044215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/art/background2/festival_bg_tiles_75.asset
+  artifactKey: Guid(61943bd7fbabff84386f97dd0aeb033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_75.asset using Guid(61943bd7fbabff84386f97dd0aeb033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca34dfce51d98c6c52e363ca07802ff2') in 0.024395 seconds 
+  Import took 0.037652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/art/background2/festival_bg_tiles_21.asset
+  artifactKey: Guid(d0fd6382c07a401438f0a6c14d869fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_21.asset using Guid(d0fd6382c07a401438f0a6c14d869fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6466721ae4f4e2131290f113ae7e1f') in 0.022789 seconds 
+  Import took 0.038007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/art/background2/festival_bg_tiles_42.asset
+  artifactKey: Guid(49bf3139c1bff8543892254792201a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_42.asset using Guid(49bf3139c1bff8543892254792201a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f276190b4607aa9d5f6a2df2baf56820') in 0.026046 seconds 
+  Import took 0.038215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/art/background2/festival_bg_tiles_28.asset
+  artifactKey: Guid(cf9ab06863dc60944b8e708976e547a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_28.asset using Guid(cf9ab06863dc60944b8e708976e547a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb251d8c1ce1168d0a13147b5a16c701') in 0.033348 seconds 
+  Import took 0.051956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/art/background2/festival_bg_tiles_53.asset
+  artifactKey: Guid(0503676cbd7e3c145808f47464b61570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_53.asset using Guid(0503676cbd7e3c145808f47464b61570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe75b5032290dbbedd158011556ef38') in 0.028458 seconds 
+  Import took 0.047404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/art/background2/festival_bg_tiles_76.asset
+  artifactKey: Guid(2eb1225093d7d4f4f81651c3b0d32919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_76.asset using Guid(2eb1225093d7d4f4f81651c3b0d32919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f93fafb1f74f18cbdd37fa64b7a81a3') in 0.032906 seconds 
+  Import took 0.054316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/art/background2/festival_bg_tiles_64.asset
+  artifactKey: Guid(4148b8aa151daef4ca24fe910f656276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_64.asset using Guid(4148b8aa151daef4ca24fe910f656276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054ae562659b5e7e2535739a5cd41325') in 0.036921 seconds 
+  Import took 0.059948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/art/background2/festival_bg_tiles_68.asset
+  artifactKey: Guid(b7f3e2271c22cba47bff2faaf980ec6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_68.asset using Guid(b7f3e2271c22cba47bff2faaf980ec6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f4a2d9fd35ee549194c101d5df9331') in 0.034354 seconds 
+  Import took 0.058261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/art/background2/festival_bg_tiles_20.asset
+  artifactKey: Guid(e0227f6e18237134d9d8c6666df61e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_20.asset using Guid(e0227f6e18237134d9d8c6666df61e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fd7c385d7648d9825853f51bbbe0ee') in 0.036277 seconds 
+  Import took 0.056403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/art/background2/festival_bg_tiles_7.asset
+  artifactKey: Guid(8f7b50f39fe6c7f41ab538770cb67582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_7.asset using Guid(8f7b50f39fe6c7f41ab538770cb67582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9510638bcca42caffcca7d1dbdd0fac1') in 0.023626 seconds 
+  Import took 0.039681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/art/background2/festival_bg_tiles_61.asset
+  artifactKey: Guid(751dc284e9245b8449d87d4d7de09775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/background2/festival_bg_tiles_61.asset using Guid(751dc284e9245b8449d87d4d7de09775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bda1ec80c16051894d4050489aec615') in 0.024289 seconds 
+  Import took 0.044147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.397018 seconds.
+  path: Assets/art/rules
+  artifactKey: Guid(e0163172d0c312d41b6cbfba707ba0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules using Guid(e0163172d0c312d41b6cbfba707ba0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bcbd6fe5fabe67b17b2538fd3f2c03') in 0.010134 seconds 
+  Import took 0.037093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.890330 seconds.
+  path: Assets/art/rules/groundOnGrass.asset
+  artifactKey: Guid(652b199c85f730d488b4b73c6f0f0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/groundOnGrass.asset using Guid(652b199c85f730d488b4b73c6f0f0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc58b275ff69b495a776d535cc0c9d1') in 0.023636 seconds 
+  Import took 0.037426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.437428 seconds.
+  path: Assets/MainGame (Auto-Backup).asset
+  artifactKey: Guid(a22318ef14c66e14da0046746711d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame (Auto-Backup).asset using Guid(a22318ef14c66e14da0046746711d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31fac85687117a6e938ee72040f9892') in 0.064690 seconds 
+  Import took 0.085015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/test.spriteatlasv2
+  artifactKey: Guid(76e4d3ad92ab6ca4aaaa0cdf1e1826ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test.spriteatlasv2 using Guid(76e4d3ad92ab6ca4aaaa0cdf1e1826ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c1da6bfba4a24e71bed518497d64a2') in 0.013181 seconds 
+  Import took 0.035534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.898382 seconds.
+  path: Assets/art/rules/groundRule.prefab
+  artifactKey: Guid(6640575fe1f544040ac99db65a832104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/groundRule.prefab using Guid(6640575fe1f544040ac99db65a832104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e297913e41d68ffb709700485ab1820') in 0.093725 seconds 
+  Import took 0.117306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.103772 seconds.
+  path: Assets/art/rules/groundRule.prefab
+  artifactKey: Guid(6640575fe1f544040ac99db65a832104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/groundRule.prefab using Guid(6640575fe1f544040ac99db65a832104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322aea7d7bb468167307c1b7622d36dc') in 0.023528 seconds 
+  Import took 0.038381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.390561 seconds.
+  path: Assets/art/rules/groundOnGrass.asset
+  artifactKey: Guid(652b199c85f730d488b4b73c6f0f0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/groundOnGrass.asset using Guid(652b199c85f730d488b4b73c6f0f0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca17ded9faaf0458704a6ccb6ce4f0cb') in 0.014743 seconds 
+  Import took 0.033577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.263382 seconds.
+  path: Assets/art/rules/groundOnGrass 1.asset
+  artifactKey: Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/groundOnGrass 1.asset using Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147ce84bffde087f5a428f0f754e1bb2') in 0.020174 seconds 
+  Import took 0.036213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.430977 seconds.
+  path: Assets/art/rules/grassOnGround.asset
+  artifactKey: Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/grassOnGround.asset using Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7afa3251f6c289d6963946e9c2cae8') in 0.022295 seconds 
+  Import took 0.034711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.474078 seconds.
+  path: Assets/art/characters/player/Festivalgoer-up-idle-talk_0.asset
+  artifactKey: Guid(68f46f2515cf54e4780243f025d69ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/characters/player/Festivalgoer-up-idle-talk_0.asset using Guid(68f46f2515cf54e4780243f025d69ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229c4742b710f0c4275f435ce437b7ed') in 0.055205 seconds 
+  Import took 0.074562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.528529 seconds.
+  path: Assets/art/rules/grassOnGround.asset
+  artifactKey: Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/grassOnGround.asset using Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aef336d1fd1e2d4679bd0c4a9c3ab3') in 0.016085 seconds 
+  Import took 0.032885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.895133 seconds.
+  path: Assets/art/rules/groundRule.prefab
+  artifactKey: Guid(6640575fe1f544040ac99db65a832104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/groundRule.prefab using Guid(6640575fe1f544040ac99db65a832104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d951869e60535eefacc10e5f98eb930') in 0.021545 seconds 
+  Import took 0.035526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.734029 seconds.
+  path: Assets/art/rules/grassOnGround.asset
+  artifactKey: Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/grassOnGround.asset using Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515a389a74e00783574587e1bc3b8ad6') in 0.021094 seconds 
+  Import took 0.041489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.021535 seconds.
+  path: Assets/art/rules/grassOnGround.asset
+  artifactKey: Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/grassOnGround.asset using Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb4f8cc51a08e41805189d9cee64c9b') in 0.014175 seconds 
+  Import took 0.031047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.202119 seconds.
+  path: Assets/art/rules/grassOnGround.asset
+  artifactKey: Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/grassOnGround.asset using Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff44d2f5d562da604f2c55cedb3bb2c4') in 0.014701 seconds 
+  Import took 0.031488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.887844 seconds.
+  path: Assets/art/rules/grassOnGround.asset
+  artifactKey: Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/art/rules/grassOnGround.asset using Guid(00eba3477fdb9a549b0bc2de332bc55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a117830d04abcbfb5c892521c7ceb97d') in 0.019975 seconds 
+  Import took 0.041755 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3037ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (2640ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (849ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (184ms)
+			SetupLoadedEditorAssemblies (1071ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (293ms)
+				ProcessInitializeOnLoadAttributes (573ms)
+				ProcessInitializeOnLoadMethodAttributes (183ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.94 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6104 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 246.1 MB.
+System memory in use after: 246.2 MB.
+
+Unloading 159 unused Assets to reduce memory usage. Loaded Objects now: 6650.
+Total: 6.026000 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.301700 ms MarkObjects: 4.307600 ms  DeleteObjects: 0.968200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 909.911548 seconds.
+  path: Assets/Prefabs/inventoryCell.prefab
+  artifactKey: Guid(cbc51c5859ce6a042aae69b08b71e3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/inventoryCell.prefab using Guid(cbc51c5859ce6a042aae69b08b71e3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bbad7b106b3ba7c532fe23ac4a99f6') in 0.154386 seconds 
+  Import took 0.192095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Prefabs/settingPanel.prefab
+  artifactKey: Guid(a8179a6661002f14ab1edaa1296a1217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/settingPanel.prefab using Guid(a8179a6661002f14ab1edaa1296a1217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b915990e781632bf18b347afed00344f') in 0.112233 seconds 
+  Import took 0.138828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.617514 seconds.
+  path: Assets/Prefabs/Grid.prefab
+  artifactKey: Guid(2f58d1785af508f48aba2cc2c37e15af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grid.prefab using Guid(2f58d1785af508f48aba2cc2c37e15af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571b3d4fff36cf0658befdd1dc6de2e5') in 0.659010 seconds 
+  Import took 0.740216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.100672 seconds.
+  path: Assets/Prefabs/Grid bk.prefab
+  artifactKey: Guid(2f58d1785af508f48aba2cc2c37e15af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grid bk.prefab using Guid(2f58d1785af508f48aba2cc2c37e15af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d307e3cf21209e4e8e43339c9373330') in 0.442328 seconds 
+  Import took 0.473484 seconds .
+
