@@ -3952,3 +3952,389 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013453 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.70 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.764 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3764ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (3346ms)
+			LoadAssemblies (221ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1044ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (179ms)
+			SetupLoadedEditorAssemblies (1093ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (700ms)
+				ProcessInitializeOnLoadMethodAttributes (171ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.9 MB.
+System memory in use after: 270.3 MB.
+
+Unloading 159 unused Assets to reduce memory usage. Loaded Objects now: 7142.
+Total: 7.513000 ms (FindLiveObjects: 0.876600 ms CreateObjectMapping: 0.474200 ms MarkObjects: 5.964500 ms  DeleteObjects: 0.196100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7175.663492 seconds.
+  path: Assets/Doozy/Examples/Icons/Simple/workflow, process, programming.png
+  artifactKey: Guid(ae2a04f05e39bac49b7c1db9afeffc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Simple/workflow, process, programming.png using Guid(ae2a04f05e39bac49b7c1db9afeffc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a36e64a2a987373b77752b1e377184') in 0.132325 seconds 
+  Import took 0.157963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Resources/Sprites/UI/YouGotAPerfect.png
+  artifactKey: Guid(20ad7e738252a1e4aa943f56f14e6670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/UI/YouGotAPerfect.png using Guid(20ad7e738252a1e4aa943f56f14e6670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae35c1e22e4877ff80b0bed3ee1f9fa8') in 0.103115 seconds 
+  Import took 0.127979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Doozy/Examples/Icons/Simple/Zoom, out, magnifier.png
+  artifactKey: Guid(0dc08ca451803d241803643ede93b7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Simple/Zoom, out, magnifier.png using Guid(0dc08ca451803d241803643ede93b7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19289c133075155b627be007a6fdb8f3') in 0.053216 seconds 
+  Import took 0.073334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Doozy/Examples/Icons/Simple/Zoom, in, magnifier.png
+  artifactKey: Guid(7342db85d5aea3b48a13449f314243fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Doozy/Examples/Icons/Simple/Zoom, in, magnifier.png using Guid(7342db85d5aea3b48a13449f314243fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c5dafa2ab05585a3dd3d3aa097f5cd') in 0.054249 seconds 
+  Import took 0.078260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.259364 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/VN/JRPG 1 Panel Sprite.png
+  artifactKey: Guid(55c2ba421d9a0854d9fb61f3b7fa3f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/VN/JRPG 1 Panel Sprite.png using Guid(55c2ba421d9a0854d9fb61f3b7fa3f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3afeeebd629a754924a14108b18be64') in 0.039722 seconds 
+  Import took 0.058445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBackground.png
+  artifactKey: Guid(7e6dd32f861d2d843bc4acabdb2f6df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBackground.png using Guid(7e6dd32f861d2d843bc4acabdb2f6df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a79625a17c0ce4ed1785aea0e6836c') in 0.063948 seconds 
+  Import took 0.083595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBar.png
+  artifactKey: Guid(8ae6b3bd2771d7140b1ba50d68a41d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBar.png using Guid(8ae6b3bd2771d7140b1ba50d68a41d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cf60a6587f93daf4a2641273b40fe7') in 0.039001 seconds 
+  Import took 0.055863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Nuke/Nuke Panel Sprite.png
+  artifactKey: Guid(d84c891b96aa96f4aab42c18cd7e2d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Nuke/Nuke Panel Sprite.png using Guid(d84c891b96aa96f4aab42c18cd7e2d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec0bb7799228cac97f9ed530c8fed65') in 0.044427 seconds 
+  Import took 0.061870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Panel Background.png
+  artifactKey: Guid(738a30cc0b59b154b81d0dd9a11423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Panel Background.png using Guid(738a30cc0b59b154b81d0dd9a11423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246ef0a1a8fe7fd2149c4ba05b5e9add') in 0.075934 seconds 
+  Import took 0.095618 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.59 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3343ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (3031ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (772ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (1266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (269ms)
+				ProcessInitializeOnLoadAttributes (696ms)
+				ProcessInitializeOnLoadMethodAttributes (270ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.9 MB.
+System memory in use after: 270.3 MB.
+
+Unloading 159 unused Assets to reduce memory usage. Loaded Objects now: 7156.
+Total: 10.203300 ms (FindLiveObjects: 0.570600 ms CreateObjectMapping: 0.603600 ms MarkObjects: 8.671700 ms  DeleteObjects: 0.354500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.59 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor.ExecuteProcessor () [0x0003f] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:44 
+  at Doozy.Editor.Internal.DoozyAssetsProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\DoozyAssetsProcessor.cs:25 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.TypeInitializationException: The type initializer for 'Doozy.Engine.Utils.DoozyPath' threw an exception. ---> System.ArgumentException: The specified path is not of a legal form (empty).
+  at System.IO.Path.InsecureGetFullPath (System.String path) [0x00025] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Path.GetFullPathInternal (System.String path) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo.Init (System.String fileName, System.Boolean checkHost) [0x00007] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileInfo..ctor (System.String fileName) [0x00014] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo..ctor(string)
+  at Doozy.Engine.Utils.DoozyPath.get_BasePath () [0x0003b] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:158 
+  at Doozy.Engine.Utils.DoozyPath..cctor () [0x00000] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Engine\Utils\DoozyPath.cs:62 
+   --- End of inner exception stack trace ---
+  at Doozy.Editor.Internal.ProcessorsSettings.get_Instance () [0x00018] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\ProcessorsSettings.cs:23 
+  at Doozy.Editor.Internal.FoldersProcessor.ExecuteProcessor () [0x0000c] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:20 
+  at Doozy.Editor.Internal.FoldersProcessor..cctor () [0x00001] in C:\Users\csviv\Desktop\unity\Heimat Festival\Assets\Doozy\Editor\Internal\FoldersProcessor.cs:15 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3580ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (3238ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (751ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (1094ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (269ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (233ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (68ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.9 MB.
+System memory in use after: 270.4 MB.
+
+Unloading 159 unused Assets to reduce memory usage. Loaded Objects now: 7158.
+Total: 7.893000 ms (FindLiveObjects: 0.477100 ms CreateObjectMapping: 0.339000 ms MarkObjects: 6.880000 ms  DeleteObjects: 0.194800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 37.02 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 78 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 126.1 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 7158.
+Total: 7.501400 ms (FindLiveObjects: 0.762000 ms CreateObjectMapping: 0.611800 ms MarkObjects: 5.990300 ms  DeleteObjects: 0.135000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 245.325967 seconds.
+  path: Assets/DialogueUtils.cs
+  artifactKey: Guid(5b9ffd5a23f91ef4c8be9ba5b1cc84ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueUtils.cs using Guid(5b9ffd5a23f91ef4c8be9ba5b1cc84ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa39e3220632bc8e56c51584feb00647') in 0.014113 seconds 
+  Import took 0.030565 seconds .
+
