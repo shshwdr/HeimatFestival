@@ -39,17 +39,18 @@ public class PlayerGridMovement : Saver
         playerInput.actions["Move"].canceled += OnMove;
     }
 
+    
 
     public override void OnDisable()
     {
 
-        //playerInput.actions["A"].started -= OnPressA;
-        //playerInput.actions["B"].started -= OnStartPressB;
-        //playerInput.actions["B"].canceled -= OnFinishPressB;
+        playerInput.actions["A"].started -= OnPressA;
+        playerInput.actions["B"].started -= OnStartPressB;
+        playerInput.actions["B"].canceled -= OnFinishPressB;
 
-        //playerInput.actions["Move"].started -= OnMove;
-        //playerInput.actions["Move"].performed -= OnMove;
-        //playerInput.actions["Move"].canceled -= OnMove;
+        playerInput.actions["Move"].started -= OnMove;
+        playerInput.actions["Move"].performed -= OnMove;
+        playerInput.actions["Move"].canceled -= OnMove;
         base.OnDisable();
     }
 

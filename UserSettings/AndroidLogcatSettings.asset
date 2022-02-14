@@ -3,17 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "53F5T19318002403",
         "name": "com.DefaultCompany.HeimatFestival",
-        "processId": 21705,
+        "processId": 26642,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "53F5T19318002403",
-            "name": "com.DefaultCompany.HeimatFestival",
-            "processId": 9194,
-            "exited": true
-        },
         {
             "deviceId": "53F5T19318002403",
             "name": "com.DefaultCompany.HeimatFestival",
@@ -42,12 +36,30 @@
             "deviceId": "53F5T19318002403",
             "name": "com.DefaultCompany.HeimatFestival",
             "processId": 20224,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "53F5T19318002403",
             "name": "com.DefaultCompany.HeimatFestival",
             "processId": 21705,
+            "exited": false
+        },
+        {
+            "deviceId": "53F5T19318002403",
+            "name": "com.nexelon.castingaway",
+            "processId": 22479,
+            "exited": false
+        },
+        {
+            "deviceId": "53F5T19318002403",
+            "name": "com.DefaultCompany.HeimatFestival",
+            "processId": 25518,
+            "exited": false
+        },
+        {
+            "deviceId": "53F5T19318002403",
+            "name": "com.DefaultCompany.HeimatFestival",
+            "processId": 26642,
             "exited": false
         }
     ],
