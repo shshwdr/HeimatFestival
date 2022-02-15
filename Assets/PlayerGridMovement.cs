@@ -28,7 +28,7 @@ public class PlayerGridMovement : Saver
         base.Start();
         animator = GetComponentInChildren<Animator>();
 
-        playerInput = CSGameManager.Instance.playerInput;
+        playerInput = GameObject.FindObjectOfType<PlayerInput>();
         playerInput.actions["A"].started += OnPressA;
 
         playerInput.actions["B"].started += OnStartPressB;

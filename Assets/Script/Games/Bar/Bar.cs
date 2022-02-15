@@ -136,6 +136,7 @@ namespace RhythmHeavenMania.Games.Bar
 
         public void Shoot(float beat, bool high, bool far,int type)
         {
+            GameScoreManager.Instance.registerScore();
             GameObject ball = Instantiate(Ball);
             ball.transform.parent = Ball.transform.parent;
             ball.SetActive(true);

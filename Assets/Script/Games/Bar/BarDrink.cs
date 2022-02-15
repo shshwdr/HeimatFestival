@@ -129,6 +129,7 @@ namespace RhythmHeavenMania.Games.Bar
                     {
                         Miss();
                     }
+                    GameScoreManager.Instance.recordScore(state);
                 }
 
                 // too lazy to make a proper fix for this

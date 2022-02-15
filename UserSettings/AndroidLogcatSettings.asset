@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "53F5T19318002403",
         "name": "com.DefaultCompany.HeimatFestival",
-        "processId": 26642,
+        "processId": 10033,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,12 @@
             "deviceId": "53F5T19318002403",
             "name": "com.DefaultCompany.HeimatFestival",
             "processId": 26642,
+            "exited": false
+        },
+        {
+            "deviceId": "53F5T19318002403",
+            "name": "com.DefaultCompany.HeimatFestival",
+            "processId": 10033,
             "exited": false
         }
     ],

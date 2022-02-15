@@ -56,7 +56,7 @@ namespace RhythmHeavenMania
             {
                 new Minigame("gameManager", "Game Manager", "", new List<GameAction>()
                 {
-                    new GameAction("end",           delegate { Debug.Log("end"); }),
+                    new GameAction("end",           delegate { Debug.Log("end"); MiniGamesManager.Instance.calculateScoreAndStopMinigame();  } ),
                     new GameAction("switchGame",    delegate { GameManager.instance.SwitchGame(eventCaller.currentSwitchGame); })
                 }),
                 new Minigame("forkLifter", "Fork Lifter", "FFFFFF", new List<GameAction>()

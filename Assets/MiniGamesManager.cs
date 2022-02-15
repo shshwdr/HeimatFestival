@@ -1,4 +1,5 @@
 using PixelCrushers;
+using Pool;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ public class MiniGamesManager : Singleton<MiniGamesManager>
     void Start()
     {
 
-        playerInput = CSGameManager.Instance.playerInput;
+        playerInput = GameObject.FindObjectOfType<PlayerInput>();
         //playerInput.actions["A"].started += OnPressA;
 
         //playerInput.actions["B"].started += OnStartPressB;
@@ -49,6 +50,29 @@ public class MiniGamesManager : Singleton<MiniGamesManager>
         currentMinigame = minigame;
         SceneManager.LoadScene(minigame);
 
+    }
+
+    public IEnumerator calculateScore()
+    {
+        if(GameScoreManager.Instance.currentScore>= GameScoreManager.Instance.maxScore * 0.5f)
+        {
+
+            PixelCrushers.DialogueSystem.DialogueLua.SetVariable(currentMinigame, 2);
+            EventPool.Trigger("minigameWin");
+        }
+        else
+        {
+
+            EventPool.Trigger("minigameLose");
+        }
+
+
+        yield return new WaitForSeconds(3);
+        stopMiniGame();
+    }
+    public void calculateScoreAndStopMinigame()
+    {
+        StartCoroutine(calculateScore());
     }
     public void stopMiniGame()
     {
