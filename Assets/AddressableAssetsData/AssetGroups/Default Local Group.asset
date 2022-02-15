@@ -16,11 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: e79c9d50ba14ab24aa04192e0b33a8e9
-  m_SerializeEntries:
-  - m_GUID: 76e4d3ad92ab6ca4aaaa0cdf1e1826ed
-    m_Address: Assets/test.spriteatlasv2
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 799ad99b62894bc4188ef4d647e0b8af, type: 2}
   m_SchemaSet:
