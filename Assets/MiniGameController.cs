@@ -12,6 +12,7 @@ public class MiniGameController : MonoBehaviour
     public GameObject winPanel;
     public GameObject losePanel;
     public GameObject tutorialPanel;
+    public AudioSource tutorialAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class MiniGameController : MonoBehaviour
 
         Time.timeScale = 1;
         GameManager.instance.Play(GameManager.instance.startBeat);
+        tutorialAudio.loop = false;
     }
     public void onScoreChange()
     {
