@@ -19,17 +19,25 @@ public class MiniGameController : MonoBehaviour
         tutorialPanel.SetActive(true);
 
         EventPool.OptIn("minigameLose", onGameLose);
-        EventPool.OptIn("minigameWin", onGameWin); 
+        EventPool.OptIn("minigameWin", onGameWin);
         EventPool.OptIn("scoreChange", onScoreChange);
         Time.timeScale = 0;
     }
 
     public void stopTutorial()
     {
+        tutorialAudio.loop = false;
+
+        StartCoroutine(waitUntilStopMusic());
+    }
+
+    IEnumerator waitUntilStopMusic()
+    {
+        yield return new WaitUntil(() => tutorialAudio.isPlaying == false);
 
         Time.timeScale = 1;
         GameManager.instance.Play(GameManager.instance.startBeat);
-        tutorialAudio.loop = false;
+
     }
     public void onScoreChange()
     {
@@ -47,6 +55,6 @@ public class MiniGameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
