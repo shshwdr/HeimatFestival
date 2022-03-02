@@ -42,12 +42,12 @@ namespace RhythmHeavenMania.Games.Bar
             if (Bar.instance.EligibleHits.Count == 0)
                 currentHitInList = 0;
 
-            if (PlayerInput.Pressed())
+            if (PlayerInput.AltPressed())
             {
                 Swing(null,true);
                 Jukebox.PlayOneShotGame("spaceball/swing");
             }
-            else if (PlayerInput.AltPressed())
+            else if (PlayerInput.Pressed())
             {
                 Swing(null,false); 
                 Jukebox.PlayOneShotGame("spaceSoccer/highkicktoe1");

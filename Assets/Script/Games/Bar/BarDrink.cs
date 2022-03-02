@@ -119,7 +119,7 @@ namespace RhythmHeavenMania.Games.Bar
 
                 StateCheck(normalizedBeat);
 
-                if ((PlayerInput.Pressed() && !far) || (PlayerInput.AltPressed() && far))
+                if ((PlayerInput.AltPressed() && !far) || (PlayerInput.Pressed() && far))
                 {
                     if (state.perfect)
                     {
